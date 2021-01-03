@@ -32,3 +32,7 @@ log'a yazdırma
 javascript-debugging-tips
 https://raygun.com/learn/javascript-debugging-tips
 console.log()
+
+Day-4
+Komut satırı ile Git-Readme dosyası oluşturma
+echo "#dosyaismi" >>README.md
