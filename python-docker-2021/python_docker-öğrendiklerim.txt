@@ -1,0 +1,11 @@
+Day-1
+flask rest api create
+https://realpython.com/flask-by-example-part-1-project-setup/
+
+Day-2
+Zeep: Python SOAP client
+https://docs.python-zeep.org/en/master/
+
+Day-3
+Python Cheat Sheet
+https://www.pythoncheatsheet.org/#JSON,-YAML-and-configuration-files
