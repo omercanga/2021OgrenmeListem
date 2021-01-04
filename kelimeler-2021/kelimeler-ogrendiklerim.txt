@@ -25,3 +25,17 @@ açıkgöz
 canny, heady, shrewd, smart, knowing, cunning
 
 day-4
+zarif
+elegant, gracious, graceful, stylish, neat, dainty
+şık
+stylish, elegant, chic, sleek, fashionable, classy
+mükemmel
+excellent, perfect, great, superb, ideal, elegant
+
+day-5
+çirkin
+ugly, homely, unattractive, unsightly, hideous, inelegant
+kaba
+rude, rough, coarse, bearish, crude, inelegant
+incelikten yoksun
+incondite, inelegant

@@ -36,3 +36,38 @@ console.log()
 Day-4
 Komut satırı ile Git-Readme dosyası oluşturma
 echo "#dosyaismi" >>README.md
+git repoya push yapma
+git remote add origin https://githubblabla...
+git push -u origin master
+
+hem commit hem mesaj aynı anda yapmak için
+git commit -am "mesajlı komit yapıldı."
+
+projeyi klonlamak
+git clone https://githubblabla...
+
+orjin dosyayı görmek için
+git remote -v
+
+Day-5
+remote tarafta ki dosyaları önce kopyalar sonra merge geçer
+git fetch 
+git merge :wq
+
+git pull =git fetch + git merge
+ 
+git checkout -b branchismi
+
+git push origin branchismi
+
+--master'a geçiyor
+git checkout master 
+
+--branch silme
+git branch -d branchismi
+
+--github 
+Spoon Knife ornek repo test için
+
+--githubda statik site yayınlama
+repository name=>> omercanga.github.io

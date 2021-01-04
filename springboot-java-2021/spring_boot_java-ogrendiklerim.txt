@@ -3,5 +3,22 @@ Calling REST Services with WebClient
 https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/html/boot-features-webclient.html
 
 Day-2
+//Converting String into int using Integer.parseInt()  
+int i=Integer.parseInt(s);  
+
+int i=10;  
+String s=String.valueOf(i);//Now it will return "10"  
+
+// char to String         
+char ch1 = 'A';    
+char ch2 = 'B';  
+String s1 = String.valueOf(ch1);    
+String s2 = String.valueOf(ch2); 
 
 Day-3
+10 Tips to Handle Null Effectively
+https://dzone.com/articles/10-tips-to-handle-null-effectively
+
+Day-4
+debugging tricks
+https://stackify.com/java-debugging-tips/

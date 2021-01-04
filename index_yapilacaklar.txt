@@ -4,6 +4,6 @@ Hergün
 4-30 Dak. Kod yaz
 3-İngilizce 3 Yeni Kelime
 4-Python-Docker 1 yeni şey
-5-Spring-Boot-Git 1 yeni şey
+5-Spring-Boot 1 yeni şey
 6-SQL-DB 1 yeni şey
-7-javaScript 1 yeni şey
+7-javaScript-Git 1 yeni şey
