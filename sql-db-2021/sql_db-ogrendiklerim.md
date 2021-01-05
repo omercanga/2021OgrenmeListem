@@ -52,3 +52,44 @@ gruplara göre hesaplama yapılacağı zaman kullanılır.
 
 Soru: Sınıflardaki öğrenci sayısını bulun.
 SELECT sinif, count(*) from ogrenci group by sinif
+
+#Day-6
+DDL, DML, DCL, TCL Nedir?
+DDL (Data Definition Language) Nedir?
+Veri Tanımlama Dili (DDL) deyimleri tabloları, veritabanı yapısı veya şema tanımlamak için kullanılır.
+
+Bunlardan bazıları;
+CREATE – Veritabanındaki nesneleri oluşturmak için kullanılır.
+ALTER – Veritabanı nesnelerinin yapısını değiştirmek için kullanılır.
+DROP – Veritabanındaki nesneleri silmek ya da başka bir ifadeyle ilgili nesneleri bütünüyle kaldırmak için kullanılır.
+TRUNCATE – Kayıtlar için ayrılan tüm boşluklar dahil, bir tablodaki tüm kayıtları kaldırılır
+COMMENT – Veri sözlüğüne yorum eklemek için kullanılır.
+RENAME – Bir nesneyi yeniden adlandırmak için kullanılır.
+
+DML (Data Manipulation Language) Nedir?
+Veri İşleme Dili (DML) deyimleri tablo ya da şema nesneleri içindeki verileri yönetmek için kullanılır.
+
+Bunlardan bazıları;
+SELECT – Veritabanından kayıt çekmek için kullanılır.
+INSERT – Tabloya kayıt ya da kayıtları eklemek için kullanılır.
+UPDATE – Tablodaki kayıt ya da kayıtları güncellemek için kullanılır.
+DELETE – Tablodan kayıt ya da kayıtları silmek için kullanılır (Veriler silinse de ancak kapladığı alan kalır)
+MERGE – UPSERT işlemi (ekleme veya güncelleme), başka bir ifadeyle birleştirme yapar.
+CALL – PL/SQL veya Java alt programını çalıştırır.
+EXPLAIN PLAN – Verilere erişim yolunun detaylarını açıklamak için kullanılır.
+LOCK TABLE – Kontrolü eş zamanlılığı sağlamak için kullanılır.
+
+DCL (Data Control Language) Nedir?
+Veri Kontrol Dili (DCL) deyimleri yetkilendirme ya da ayrıcalıkları belirlemek için kullanılır.
+
+Bunlardan bazıları;
+GRANT – Belirli bir kullanıcı ya da gruba veritabanının belirtilen nesnelerine erişim ayrıcalıklarını verir.
+REVOKE – GRANT komutu ile verilen ayrıcalıkların bir kısmını ya da tümünü geri almak için kullanılır.
+
+TCL (Transaction Control) Nedir?
+İşlem Kontrol (TCL) deyimleri DML ifadeleri tarafından yapılan değişiklikleri yönetmek için kullanılır.
+
+Bunlardan bazıları;
+COMMIT – Yapılanları kalıcı hale getirir. İşin tamamlanmasını sağlar.
+SAVEPOINT – Daha sonra geri dönülecek bir dönüş noktası belirler.
+ROLLBACK – Son COMMIT’e kadar olan yeri geri alır.

@@ -22,3 +22,24 @@ https://dzone.com/articles/10-tips-to-handle-null-effectively
 Day-4
 debugging tricks
 https://stackify.com/java-debugging-tips/
+
+Day-5
+SOAP servis ile REST servis
+Nedir? Benzerlik ve farklılıkları nelerdir?
+
+SOAP (Simple Object Access Protocol) yani Basit Nesne Erişim Protokolü,
+internet üzerinden küçük miktarda bilgileri yada mesajları aktarma protokoludur. 
+SOAP mesajları XML formatındadırlar ve  genellikle HTTP protokolu bazende TCP/IP 
+kullanılarak gönderilirler. SOAP bizi XML tabanlı kullanıma mecbur bırakır. 
+Bu konuda esnek değildir. SOAP üzerinde güvenlik sağlamak daha kolaydır. 
+SOAP için geliştirici araçları daha iyidir. Kullanmak için yardımcı olacak 
+daha çok kaynak bulunabilir.
+
+REST (REpresentational State Transfer) yani Temsili Durum Transferi, 
+istemci ve sunucu arasında veri alışverişinin basit bir yoludur. 
+REST mimarisi standart bir tanımlamaya ihtiyaç duymaz. REST ile veri 
+alışverişini JSON, XML hatta Text formatında bile yapabilirsiniz. 
+Esnek bir yapıya sahiptir. REST mimarisinde de HTTP metodlarından yararlanılır. 
+Uygulamanın daha hızlı çalışmasını sağlar.
+
+Day-6

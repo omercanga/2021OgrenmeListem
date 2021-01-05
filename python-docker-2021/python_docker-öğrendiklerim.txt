@@ -15,3 +15,5 @@ creating-apis-with-python-and-flask
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
 Day-5
+How to Run a Python Script using Docker?
+https://www.geeksforgeeks.org/how-to-run-a-python-script-using-docker/
