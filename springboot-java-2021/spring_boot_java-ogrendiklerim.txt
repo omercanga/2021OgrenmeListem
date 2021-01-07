@@ -74,3 +74,21 @@ public class MyApp {
 ```
 
 Day-7
+double dan long a cevirim
+```
+  double val = 3.5;
+		long intPartVal= (long) val;
+		double fracPartVal = val - intPartVal;
+		System.out.println(fracPartVal);
+```s
+double ondalık kısımı alma
+```
+		double d1 = 67.22;
+		double d2 = d1%1;
+		System.out.println(d2);
+		System.out.println("*******");
+  
+  
+  
+```
+		
