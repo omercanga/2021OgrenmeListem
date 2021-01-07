@@ -91,4 +91,48 @@ double ondalık kısımı alma
   
   
 ```
+https://stackoverflow.com/questions/7124448/how-does-java-math-roundingmode-work
+
+The problem you have is that double is not a precise representation and you are round based on this imprecise number.
+
+BigDecimal bd = new BigDecimal(1.555d);
+System.out.println("bd=" + bd);
+bd = bd.setScale(2, RoundingMode.HALF_UP);
+System.out.println("after rounding bd=" + bd);
+double d = bd.doubleValue();
+System.out.println("after rounding d=" + d);
+prints
+
+bd=1.5549999999999999378275106209912337362766265869140625
+after rounding bd=1.55
+after rounding d=1.55
+however
+
+BigDecimal bd = BigDecimal.valueOf(1.555d);
+System.out.println("bd=" + bd);
+bd = bd.setScale(2, RoundingMode.HALF_UP);
+System.out.println("after rounding bd=" + bd);
+double d = bd.doubleValue();
+System.out.println("after rounding d=" + d);
+prints
+
+bd=1.555
+after rounding bd=1.56
+after rounding d=1.56
+This works because BigDecimal.valueOf does some extra rounding based on how double would appear if you printed it.
+
+However I wouldn't use BigDecimal unless performance/simplicity is not an issue.
+
+double d = 1.555d;
+System.out.println("d=" + d);
+d = roundToTwoPlaces(d);
+System.out.println("after rounding d=" + d);
+
+public static double roundToTwoPlaces(double d) {
+    return ((long) (d < 0 ? d * 100 - 0.5 : d * 100 + 0.5)) / 100.0;
+}
+prints
+
+d=1.555
+after rounding d=1.56
 		
