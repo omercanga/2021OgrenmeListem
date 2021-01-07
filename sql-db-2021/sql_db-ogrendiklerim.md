@@ -108,3 +108,7 @@ UNION ALL
 Select alan_ad(ları)_2   from tabloadı_2
 
 Select ifadesinden sonra gelen alan sayısı her iki tabloda da aynı olmalıdır. Alan adları farklı olabilir.
+
+HAVING ve  WHERE Arasında ki farklar
+he difference between the having and where clause in SQL is that the where clause cannot be used with aggregates, but the having clause can.
+The where clause works on row’s data, not on aggregated data. 
