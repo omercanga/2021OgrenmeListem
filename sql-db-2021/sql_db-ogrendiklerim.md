@@ -93,3 +93,18 @@ Bunlardan bazıları;
 COMMIT – Yapılanları kalıcı hale getirir. İşin tamamlanmasını sağlar.
 SAVEPOINT – Daha sonra geri dönülecek bir dönüş noktası belirler.
 ROLLBACK – Son COMMIT’e kadar olan yeri geri alır.
+
+#Day-7
+UNION operatörü ile farklı tablolardaki seçeceğimiz alanları birleştirerek tek bir tabloymuş gibi gösterebiliriz. Kriterlere uygun olan kayıtları bir kez dikkate alır, tekrarlı kayıtları ekrana getirmez.
+
+Tekrarlı kayıtların da ekrana gelmesini istiyorsak  UNUON ALL kullanırız.
+
+Kullanım Şekli:
+
+Select alan_ad(ları)_1   from tabloadı_1
+
+UNION ALL
+
+Select alan_ad(ları)_2   from tabloadı_2
+
+Select ifadesinden sonra gelen alan sayısı her iki tabloda da aynı olmalıdır. Alan adları farklı olabilir.
