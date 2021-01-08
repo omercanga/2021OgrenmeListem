@@ -56,6 +56,7 @@ git merge :wq
 
 git pull =git fetch + git merge
  
+Day-6 
 git checkout -b branchismi
 
 git push origin branchismi
@@ -63,6 +64,7 @@ git push origin branchismi
 --master'a geçiyor
 git checkout master 
 
+Day-7
 --branch silme
 git branch -d branchismi
 
@@ -71,3 +73,5 @@ Spoon Knife ornek repo test için
 
 --githubda statik site yayınlama
 repository name=>> omercanga.github.io
+
+
