@@ -86,6 +86,7 @@ Knockout: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
 Ember JS: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
 
 Day-9
+https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/
 const numbers = [1, 2, 3, 4, 5];
 //for ornek
 for (i = 0; i < numbers.length; i++) {
