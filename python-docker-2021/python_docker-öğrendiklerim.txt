@@ -36,3 +36,9 @@ docker network create -d=overlay odevler
 docker service  create -d --name box1 -t --network=odevler busybox:latest
 #workere bağlanma
 docker-machine ssh worker1
+
+Day-8
+
+Day-9
+
+Day-10
