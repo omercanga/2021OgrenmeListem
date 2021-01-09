@@ -136,3 +136,15 @@ prints
 d=1.555
 after rounding d=1.56
 		
+Day-8
+Servlet nedir ?
+Web sunucusu üzerinde çalışır ve gönderilen veriye göre sonuç üreten java sınıflardıdır.Kullanıcı ulaşmak istediği sayfayı belirtip bilgiyi sonucuya gönderir.Web sunucu gelen bu isteği(request) alıp bu isteğe uygun olan servete ait nesne varsa istek servete gönderilir.Eğer istenilen(gönderilen bilgiyle uyuşan) nesne bellekte yoksa üretilip istek ve bilgi servete gönderilir.Servlet kendisine gelen bu istek doğrultusunda bir sonuç üretip(örn:html sayfası formatında) web sunucusuna gönderir.Web suncuda servletten gelen bu değeri isteği yapan kullanıcıya gönderir.Fakrlı sonuçlar için farklı servlet sınıfları üretilmeli(örn:HttpServlet).Servlet makinesi web sunucuda servlet ve javanın nasıl kullanıldığını bilir ve sunucuda bulunmalıdır.Bu makine servletleri JVM(Java virtual machine) ile çalıştırılabilir ve sonuçları kullanıcıya gönderilebilir.Web suncusu ve servlet makinesi içeren bir çok  sunucu vardır.En çok bilinen Apache Tomcat, Macromedya Jrun,Oracle. Aynı servete birden fazla istek aynı anda gelince suncu bu servlet sınıfndan tek bir nesne üreterip bu nesneyi iş parçacığı(multi thread) ile tüm isteklere cevap verebilir.Bu arada javada çoklu süreç(multi process) yok.Çünkü JRE bir süreçtir ve aynı anda birden fazla süreç çalıştırılamaz.Bunun için tek süreç ile çoklu iş parçacığı ile bir çok işlem aynı anda gerçekleştirilebiliyor.[34] http://www.ethemsulan.com/2010/02/java-servlet-nedir-ve-nasl-calsr.html
+
+Day-9
+JPA / Hibernate arasındaki fark nedir ?
+JPA (Java Persistence API) veritabanından bağımsız kodlama yapabilmenizi ve sorgular hazırlayabilmenizi olanaklı kılar. Java geliştiricilerine veritabanı tabloları ile sınıflar arasında mapping imkanı sunarak, ilişkisel veritabanlarının nesne tabanlı bir geliştirme iskeleti ile kolaylıkla yönetilmesini sağlar. The Java Persistence API, Java Persistence Query Language ve nesne/tablo ilişkisini gösteren mapping metadataları gibi üç kola ayrılmış bir geliştirim mantığı vardır. JPQL (Java Persistence Query Language) ile yazacağınız sorgular, veritabanınızdaki ilişkisel yapıya göre hazırladığınız, birbiriyle ilişkili POJO(plain old java object) nesnelerini kullandığınız sorgular olacaktır. JPA 'nın sunduğu imkanlar ile çoğu basit işlemi (kayıt silme, ekleme ve birleştirme) de, JPQL kullanmadan, kolaylıkla halledebilme olanağı bulunmaktadır.
+Hibernate, JPA’ nın özelliklerini taşımakla birlikte kendine ait yararlı ek özellikleri de bulunmaktadır. JPA bir standart olduğu için bu döküman JPA ‘ya ağırlık verilmektedir. [12] https://blog.kodcu.com/minikitap/Java.pdf
+
+Day-10
+Java’da length, length() ve size() farkı
+Java’da bir şeyin boyutunu, uzunluğunu öğrenmek için dizilerde(array) .length değişkenini, String’lerde .length() ve listelerde ise .size() fonksiyonlarını kullanıyoruz. 
