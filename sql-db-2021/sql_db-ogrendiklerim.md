@@ -15,7 +15,7 @@ Repeatable read keep update locks
 Read stability keep update locks
 ```
 
-#Day-2
+# Day-2
 İnner Join
 https://medium.com/gokhanyavas/t-sql-join-i%CC%87%C5%9Flemleri-b2181ed3118b
 
