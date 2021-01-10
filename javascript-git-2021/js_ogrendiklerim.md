@@ -1,4 +1,4 @@
-Day-1
+# Day-1
 Javascript notification api kullanımı
 https://www.muratoner.net/javascript/javascript-notification-api-kullanimi
 
@@ -19,7 +19,7 @@ notification.onclick = function(){
     console.info("tıklandı")
 }
 
-Day-2
+# Day-2
 JavaScript Window - The Browser Object Model
 https://www.w3schools.com/js/js_window.asp
 
@@ -27,13 +27,13 @@ window.document.getElementById("header");
 document.getElementById("header");
 
 
-Day-3
+# Day-3
 log'a yazdırma
 javascript-debugging-tips
 https://raygun.com/learn/javascript-debugging-tips
 console.log()
 
-Day-4
+# Day-4
 Komut satırı ile Git-Readme dosyası oluşturma
 echo "#dosyaismi" >>README.md
 git repoya push yapma
@@ -49,14 +49,14 @@ git clone https://githubblabla...
 orjin dosyayı görmek için
 git remote -v
 
-Day-5
+# Day-5
 remote tarafta ki dosyaları önce kopyalar sonra merge geçer
 git fetch 
 git merge :wq
 
 git pull =git fetch + git merge
  
-Day-6 
+# Day-6 
 git checkout -b branchismi
 
 git push origin branchismi
@@ -64,7 +64,7 @@ git push origin branchismi
 --master'a geçiyor
 git checkout master 
 
-Day-7
+# Day-7
 --branch silme
 git branch -d branchismi
 
@@ -75,7 +75,7 @@ Spoon Knife ornek repo test için
 repository name=>> omercanga.github.io
 
 
-Day-8
+# Day-8
 AJAX: Asynchronous JavaScript and XML, tüm sayfayı kullanıcıya tekrar yükletmeden ekrana getiren veya servera gönderen bir çok programlama dili ile uyumlu çalışan bir tekniktir.
 jQuery: HTML dokümanların yönetiminde, animasyonların oluşturulmasında, etkileşimli Web sayfaların hazırlanmasında kullanılan Javascript kütüphanesidir.
 Angular JS: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
@@ -84,7 +84,7 @@ Node JS:  Javascript motoru üzerinde çalışan, Event-driven, nonblocking I/O 
 Knockout: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
 Ember JS: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
 
-Day-9
+# Day-9
 https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/
 const numbers = [1, 2, 3, 4, 5];
 //for ornek
