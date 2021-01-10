@@ -150,4 +150,4 @@ Hibernate, JPA’ nın özelliklerini taşımakla birlikte kendine ait yararlı 
 
 # Day-10
 Java’da length, length() ve size() farkı
-Java’da bir şeyin boyutunu, uzunluğunu öğrenmek için dizilerde(array) .length değişkenini, String’lerde .length() ve listelerde ise .size() fonksiyonlarını kullanıyoruz. 
+Java’da bir şeyin boyutunu, uzunluğunu öğrenmek için dizilerde(array) .length değişkenini, String’lerde(bir dizi olduğu için) .length() ve listelerde ise .size() fonksiyonlarını kullanıyoruz. 

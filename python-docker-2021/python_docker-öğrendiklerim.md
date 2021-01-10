@@ -20,25 +20,51 @@ https://www.geeksforgeeks.org/how-to-run-a-python-script-using-docker/
 
 # Day-6
 docker komutlar
-#çalışan servisleri listeler
-docker service ls
-#nginx procesisi ile ilgili bilgi verir
-docker service ps nginx 
-#servis oluşturuyor
-docker service create --name=nginx -p 80:80 nginx:latest
+**çalışan servisleri listeler :**docker service ls
+**nginx procesisi ile ilgili bilgi verir :**docker service ps nginx  
+**servis oluşturuyor :**docker service create --name=nginx -p 80:80 nginx:latest
 
 # Day-7
-#docker makinelerin ip bilgilerini verir
+docker makinelerin ip bilgilerini verir
 docker-machines ls
-#network oluşturma
+network oluşturma
 docker network create -d=overlay odevler
-#busybox oluşturma
+busybox oluşturma
 docker service  create -d --name box1 -t --network=odevler busybox:latest
-#workere bağlanma
+workere bağlanma
 docker-machine ssh worker1
 
 # Day-8
+**Docker Commands**
 
+```
+docker run – Runs a command in a new container.
+docker start – Starts one or more stopped containers
+docker stop – Stops one or more running containers
+docker build – Builds an image form a Docker file
+docker pull – Pulls an image or a repository from a registry
+docker push – Pushes an image or a repository to a registry
+docker export – Exports a container’s filesystem as a tar archive
+docker exec – Runs a command in a run-time container
+docker search – Searches the Docker Hub for images
+docker attach – Attaches to a running container
+docker commit – Creates a new image from a container’s changes
+
+```
 # Day-9
+[https://medium.com/javascript-in-plain-english/7-basic-docker-commands-38d1a29ee9d3 ]
+
 
 # Day-10
+
+docker hubde container image indirme
+docker image pull omercanga/app1
+
+çekilen imajın çalıştırılması
+docker container  run --name ilkcontainer omercanga/app1
+
+indirilen container ikinci kez çalıştırıldı.
+docker container  run --name ikincicontainer omercanga/app1
+
+liberty server pull etmek yani indirmek
+docker pull websphere-liberty
