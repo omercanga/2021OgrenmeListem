@@ -112,3 +112,13 @@ Select ifadesinden sonra gelen alan sayısı her iki tabloda da aynı olmalıdı
 HAVING ve  WHERE Arasında ki farklar
 he difference between the having and where clause in SQL is that the where clause cannot be used with aggregates, but the having clause can.
 The where clause works on row’s data, not on aggregated data. 
+
+#Day-8 
+SQL Always On: Uygulamaların yüksek erişilebilir olması ve sistemde oluşacak bir hata sonucu sistemin çalışmasının minimum seviyede aksamasının sağlayan bir SQL teknolojisidir.
+
+SQL Replication: Kaynak veri tabanının aynısı, sürekli yenilerek, başka bilgisayarlarda da tutulma teknolojisidir.
+
+Performance Tuning: SQL performans yönetimi teknolojisidir.
+
+#Day-9
+QueryStore: SQL Server‘de plan değişikliklerinden dolayı yaşanılan performans problemleri için geliştirilmiş bir teknolojidir.

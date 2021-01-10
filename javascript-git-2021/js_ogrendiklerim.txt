@@ -75,3 +75,24 @@ Spoon Knife ornek repo test için
 repository name=>> omercanga.github.io
 
 
+Day-8
+AJAX: Asynchronous JavaScript and XML, tüm sayfayı kullanıcıya tekrar yükletmeden ekrana getiren veya servera gönderen bir çok programlama dili ile uyumlu çalışan bir tekniktir.
+jQuery: HTML dokümanların yönetiminde, animasyonların oluşturulmasında, etkileşimli Web sayfaların hazırlanmasında kullanılan Javascript kütüphanesidir.
+Angular JS: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
+Backbone: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
+Node JS:  Javascript motoru üzerinde çalışan, Event-driven, nonblocking I/O modeli kullanan, ölçeklenebilir uygulamalar geliştirmek için dizayn edilmiş bir platformdur.
+Knockout: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
+Ember JS: Front-end gelirştirmede kullanılan bir Javascript kütüphanesidir.
+
+Day-9
+https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/
+const numbers = [1, 2, 3, 4, 5];
+//for ornek
+for (i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+} 
+//foreach ornek
+numbers.forEach(function(number) {
+    console.log(number);
+});
+
