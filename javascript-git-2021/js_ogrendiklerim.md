@@ -22,11 +22,11 @@ notification.onclick = function(){
 
 # Day-2
 JavaScript Window - The Browser Object Model
-https://www.w3schools.com/js/js_window.asp
-
+[https://www.w3schools.com/js/js_window.asp]
+```
 window.document.getElementById("header");
 document.getElementById("header");
-
+```
 
 # Day-3
 log'a yazdırma
