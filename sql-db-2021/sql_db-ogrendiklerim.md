@@ -1,4 +1,4 @@
-**Day-1**
+# Day-1
 with ur?
 “with ur” in a query tells DB2 that you want to use the Uncommitted Read isolation level.
 The WITH clause specifies the isolation level at which the statement is executed. 
@@ -19,7 +19,7 @@ Read stability keep update locks
 İnner Join
 https://medium.com/gokhanyavas/t-sql-join-i%CC%87%C5%9Flemleri-b2181ed3118b
 
-#Day-3
+# Day-3
 SQL Distinct İfadesi
 
 Bazen bir tablonun bazı kolonlarında tekrarlanan değerler (veriler) olabilir.
@@ -29,7 +29,7 @@ bulunmasını istiyorsak DISTINCT anahtar sözcüğünü kullanırız.
 SELECT DISTINCT Şehir FROM Kişiler
 SELECT DISTINCT cinsiyet FROM uyeler
 
-#Day-4
+# Day-4
 SQL ORDER BY (Sıralama)
 
 SELECT sorgusu ile çektiğimiz kayıtları (sonuç kümesini) 
@@ -37,12 +37,12 @@ sıralamak için ORDER BY anahtar kelimesini kullanırız.
 Bu sıralama belirtilen kolona göre yapılır. Ve varsayılan olarak artan
 (küçükten büyüğe) sıradadır. 
 ORDER BY için sözdizimi (syntax – sintaks) aşağıdaki gibidir:
-
+``` sql
 SELECT kolon_adı(ları)
 FROM tablo_adı
 ORDER BY kolon_adı(ları) ASC|DESC
-
-#Day-5
+```
+# Day-5
 GROUP BY Kullanımı
 
 GROUP BY ifadesi tabloyu veya birlikte sorgulanan tabloları
@@ -53,7 +53,7 @@ gruplara göre hesaplama yapılacağı zaman kullanılır.
 Soru: Sınıflardaki öğrenci sayısını bulun.
 SELECT sinif, count(*) from ogrenci group by sinif
 
-#Day-6
+# Day-6
 DDL, DML, DCL, TCL Nedir?
 DDL (Data Definition Language) Nedir?
 Veri Tanımlama Dili (DDL) deyimleri tabloları, veritabanı yapısı veya şema tanımlamak için kullanılır.
@@ -66,10 +66,11 @@ TRUNCATE – Kayıtlar için ayrılan tüm boşluklar dahil, bir tablodaki tüm 
 COMMENT – Veri sözlüğüne yorum eklemek için kullanılır.
 RENAME – Bir nesneyi yeniden adlandırmak için kullanılır.
 
-DML (Data Manipulation Language) Nedir?
+**DML (Data Manipulation Language)** Nedir?
 Veri İşleme Dili (DML) deyimleri tablo ya da şema nesneleri içindeki verileri yönetmek için kullanılır.
 
 Bunlardan bazıları;
+```
 SELECT – Veritabanından kayıt çekmek için kullanılır.
 INSERT – Tabloya kayıt ya da kayıtları eklemek için kullanılır.
 UPDATE – Tablodaki kayıt ya da kayıtları güncellemek için kullanılır.
@@ -78,8 +79,8 @@ MERGE – UPSERT işlemi (ekleme veya güncelleme), başka bir ifadeyle birleşt
 CALL – PL/SQL veya Java alt programını çalıştırır.
 EXPLAIN PLAN – Verilere erişim yolunun detaylarını açıklamak için kullanılır.
 LOCK TABLE – Kontrolü eş zamanlılığı sağlamak için kullanılır.
-
-DCL (Data Control Language) Nedir?
+```
+**DCL (Data Control Language)** Nedir?
 Veri Kontrol Dili (DCL) deyimleri yetkilendirme ya da ayrıcalıkları belirlemek için kullanılır.
 
 Bunlardan bazıları;
@@ -94,32 +95,32 @@ COMMIT – Yapılanları kalıcı hale getirir. İşin tamamlanmasını sağlar.
 SAVEPOINT – Daha sonra geri dönülecek bir dönüş noktası belirler.
 ROLLBACK – Son COMMIT’e kadar olan yeri geri alır.
 
-#Day-7
+# Day-7
 UNION operatörü ile farklı tablolardaki seçeceğimiz alanları birleştirerek tek bir tabloymuş gibi gösterebiliriz. Kriterlere uygun olan kayıtları bir kez dikkate alır, tekrarlı kayıtları ekrana getirmez.
 
 Tekrarlı kayıtların da ekrana gelmesini istiyorsak  UNUON ALL kullanırız.
 
 Kullanım Şekli:
-
+```
 Select alan_ad(ları)_1   from tabloadı_1
-
-UNION ALL
-
+```
+**UNION ALL**
+```
 Select alan_ad(ları)_2   from tabloadı_2
-
+```
 Select ifadesinden sonra gelen alan sayısı her iki tabloda da aynı olmalıdır. Alan adları farklı olabilir.
 
-#Day-8 
+# Day-8 
 SQL Always On: Uygulamaların yüksek erişilebilir olması ve sistemde oluşacak bir hata sonucu sistemin çalışmasının minimum seviyede aksamasının sağlayan bir SQL teknolojisidir.
 
 SQL Replication: Kaynak veri tabanının aynısı, sürekli yenilerek, başka bilgisayarlarda da tutulma teknolojisidir.
 
 Performance Tuning: SQL performans yönetimi teknolojisidir.
 
-#Day-9
+# Day-9
 QueryStore: SQL Server‘de plan değişikliklerinden dolayı yaşanılan performans problemleri için geliştirilmiş bir teknolojidir.
 
-#Day-10
+# Day-10
 HAVING ve  WHERE Arasında ki farklar
 the difference between the having and where clause in SQL is that the where clause cannot be used with aggregates, but the having clause can.
 The where clause works on row’s data, not on aggregated data. 
