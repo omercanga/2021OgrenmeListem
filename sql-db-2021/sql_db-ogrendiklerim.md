@@ -1,4 +1,4 @@
-#Day-1
+**Day-1**
 with ur?
 “with ur” in a query tells DB2 that you want to use the Uncommitted Read isolation level.
 The WITH clause specifies the isolation level at which the statement is executed. 
@@ -109,10 +109,6 @@ Select alan_ad(ları)_2   from tabloadı_2
 
 Select ifadesinden sonra gelen alan sayısı her iki tabloda da aynı olmalıdır. Alan adları farklı olabilir.
 
-HAVING ve  WHERE Arasında ki farklar
-he difference between the having and where clause in SQL is that the where clause cannot be used with aggregates, but the having clause can.
-The where clause works on row’s data, not on aggregated data. 
-
 #Day-8 
 SQL Always On: Uygulamaların yüksek erişilebilir olması ve sistemde oluşacak bir hata sonucu sistemin çalışmasının minimum seviyede aksamasının sağlayan bir SQL teknolojisidir.
 
@@ -122,3 +118,9 @@ Performance Tuning: SQL performans yönetimi teknolojisidir.
 
 #Day-9
 QueryStore: SQL Server‘de plan değişikliklerinden dolayı yaşanılan performans problemleri için geliştirilmiş bir teknolojidir.
+
+#Day-10
+HAVING ve  WHERE Arasında ki farklar
+the difference between the having and where clause in SQL is that the where clause cannot be used with aggregates, but the having clause can.
+The where clause works on row’s data, not on aggregated data. 
+
