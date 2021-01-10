@@ -62,13 +62,6 @@ olağan usual, ordinary, normal, regular, common, commonplace
 adi ordinary, common, base, mean, sleazy, despicable
 alışılagelmiş customary, ordinary, common, habitual, routine, consuetudinary
 bayağı vulgar, common, ordinary, lewd, banal, menial
-tipik typical, characteristic, representative, modal, ordinary, normal
-alelâde ordinary, common, workaday, commonplace, common or garden, nondescript
-alışılmış şey the usual thing, ordinary, rut
-olağan şey the usual thing, ordinary
-yetkili makam ordinary
-orta halli yemek ordinary
-lokanta restaurant, diner, cafe, chophouse, eating house, ordinary
 
 # Day-9
 consonant: ünsüz harf
@@ -80,6 +73,14 @@ constraint: baskı, kısıtlama, zorlama
 context: bağlam
 contraction: kısalma, büzülme, kasılma
 contractor: müteahhit, üstlenici (firma)
+tipik typical, characteristic, representative, modal, ordinary, normal
+alelâde ordinary, common, workaday, commonplace, common or garden, nondescript
+alışılmış şey the usual thing, ordinary, rut
+olağan şey the usual thing, ordinary
+yetkili makam ordinary
+orta halli yemek ordinary
+lokanta restaurant, diner, cafe, chophouse, eating house, ordinary
+
 
 
 
