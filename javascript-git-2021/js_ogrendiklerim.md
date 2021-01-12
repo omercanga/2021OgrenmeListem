@@ -1,6 +1,5 @@
 # Day-1
 Javascript notification api kullanımı
-[https://www.muratoner.net/javascript/javascript-notification-api-kullanimi]
 ```js
 var notification = new Notification('Başlık', { 
     body: 'Mesaj gövdenizi buraya yazın',
@@ -19,6 +18,7 @@ notification.onclick = function(){
     console.info("tıklandı")
 }
 ```
+[Kaynak](https://www.muratoner.net/javascript/javascript-notification-api-kullanimi)
 
 # Day-2
 JavaScript Window - The Browser Object Model
