@@ -18,7 +18,7 @@ notification.onclick = function(){
     console.info("tıklandı")
 }
 ```
-[Kaynak](https://www.muratoner.net/javascript/javascript-notification-api-kullanimi)
+[Kaynak][https://www.muratoner.net/javascript/javascript-notification-api-kullanimi]
 
 # Day-2
 JavaScript Window - The Browser Object Model
