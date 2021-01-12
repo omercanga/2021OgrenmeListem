@@ -22,7 +22,7 @@ notification.onclick = function(){
 
 # Day-2
 JavaScript Window - The Browser Object Model
-[https://www.w3schools.com/js/js_window.asp]
+[Kaynak](https://www.w3schools.com/js/js_window.asp)
 ```
 window.document.getElementById("header");
 document.getElementById("header");
@@ -31,8 +31,8 @@ document.getElementById("header");
 # Day-3
 log'a yazdırma
 javascript-debugging-tips
-https://raygun.com/learn/javascript-debugging-tips
 console.log()
+[Kaynak](https://raygun.com/learn/javascript-debugging-tips)
 
 # Day-4
 Komut satırı ile Git-Readme dosyası oluşturma
@@ -108,7 +108,7 @@ numbers.forEach(function(number) {
     console.log(number);
 });
 ```
-(Kaynak)[https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/]
+[Kaynak](https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/)
 # Day-10
 js cookie example
 ```js
@@ -170,7 +170,7 @@ $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
 ```
-(Kaynak)[https://stackabuse.com/git-merge-branch-into-master/] 
+[Kaynak](https://stackabuse.com/git-merge-branch-into-master/) 
 
 git rabase ornek
 
@@ -182,5 +182,5 @@ git pull
 git rebase -i master
 git checkout master
 git merge test
-(Kaynak)[https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master]
+[Kaynak](https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master)
 ```
