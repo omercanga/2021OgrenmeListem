@@ -59,7 +59,6 @@ understanding, mentality, comprehension, intelligence, apprehension, sensibility
 sıradan ordinary, common, casual, nondescript, commonplace, banal
 normal normal, regular, ordinary, standard, normative
 olağan usual, ordinary, normal, regular, common, commonplace
-adi ordinary, common, base, mean, sleazy, despicable
 alışılagelmiş customary, ordinary, common, habitual, routine, consuetudinary
 bayağı vulgar, common, ordinary, lewd, banal, menial
 
@@ -80,6 +79,19 @@ olağan şey the usual thing, ordinary
 yetkili makam ordinary
 orta halli yemek ordinary
 lokanta restaurant, diner, cafe, chophouse, eating house, ordinary
+
+# Day-11
+kalitesiz
+of poor quality, sleazy, shoddy, inferior, coarse, ornery
+adi
+ordinary, common, base, mean, sleazy, despicable
+
+
+# Day-12
+kaba
+rude, rough, coarse, bearish, crude, ornery
+çürük
+rotten, flimsy, bad, decayed, carious, sleazy
 
 
 
