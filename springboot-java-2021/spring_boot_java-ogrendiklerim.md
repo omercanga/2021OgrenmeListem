@@ -151,3 +151,34 @@ Hibernate, JPA’ nın özelliklerini taşımakla birlikte kendine ait yararlı 
 # Day-10
 Java’da length, length() ve size() farkı
 Java’da bir şeyin boyutunu, uzunluğunu öğrenmek için dizilerde(array) .length değişkenini, String’lerde(bir dizi olduğu için) .length() ve listelerde ise .size() fonksiyonlarını kullanıyoruz. 
+
+# Day-11
+Spring Boot’un özellikleri 
+- Web Geliştirme (Web Development)
+- Spring Uygualamaları (SpringApplication)
+- Uygulama Etkinlikleri ve Dinleyicileri (Application events and listeners)
+- Admin Özellikleri (Admin features)
+- Özellik/Nitelik Dosyaları(Properties Files)
+- Loglama (Logging)
+- Güvenlik (Security)
+
+# Day-12
+Spring Boot Notasyonları 
+@RestController bir stereotype notasyondur. 
+Sınıfa @Controller ve @ResponseBody notasyanları ekler.
+Uygulamak için, dosyanızdaki pakete org.springframework.web.bind.annotation belirtmeye ihtiyacınız vardır.
+[Kaynak](https://www.kampuskod.com/yazilim/java/spring-boot-mulakat-sorulari-1/ )
+
+# Day-13
+Spring Boot otomatik olarak bağımlılıkları (dependencies) ve yapılandırmaları (configuration) yönetir.
+Bu bağımlılıkların herhangi biri için bir sürüm belirtmeniz gerekmez. 
+Spring Boot versiyonu yükselttiğinizde, Spring Boot tüm bağımlılıkları otomatik olarak yükseltir.
+[Kaynak](https://www.kampuskod.com/yazilim/java/spring-boot-mulakat-sorulari-1/ )
+
+# Day-14
+Spring Boot Özellikleri (Properties):
+Spring Boot, projemizin application.properties dosyasında belirtilebilecek çeşitli özellikler sunar. 
+Bu özellikler varsayılan değerdedir ve özellik dosyası içinde ayarlayabilirsiniz. 
+Özellikler, değerleri ayarlamak için kullanılır. 
+Örneğin; server-port numarası (number), veritabanı bağlantı ayarları (database connection configuration) vb.
+[Kaynak](https://www.kampuskod.com/yazilim/java/spring-boot-mulakat-sorulari-1/ )

@@ -186,3 +186,13 @@ git checkout master
 git merge test
 ```
 - [Kaynak](https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master)
+
+# Day-14
+Node JS , back-end geliştirme ve uygulama işlemlerini gerçekleştirmek için tasarlanmış JavaScript tabanlı bir araçtır. 
+
+# Day-15
+Node JS kullanmak için bir kaç sebep;Hızlı, asenkron, tek bir genelleştirilmiş programlama dili ve veri türü vb...
+
+Genel olarak, Node JS JavaScript tabanlı sunucu tarafı geliştirme söz konusu olduğunda mevcut piyasadaki en iyi araçlardan biridir. 
+
+

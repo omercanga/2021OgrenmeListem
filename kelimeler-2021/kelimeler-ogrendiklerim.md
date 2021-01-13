@@ -93,6 +93,26 @@ rude, rough, coarse, bearish, crude, ornery
 çürük
 rotten, flimsy, bad, decayed, carious, sleazy
 
+# Day-13
+önemli
+important, significant, major, substantial, considerable, prominent
+anlamlı
+significant, meaningful, expressive, meaning, eloquent, revealing
+kayda değer
+remarkable, significant, respectable, fair, handsome
 
+# Day-14
+dokunaklı
+touching, pathetic, moving, poignant, eloquent, affective
+güzel konuşan
+eloquent, conversational, well-spoken, silver-tongued
+
+# Day-15
+açıklayıcı
+explanatory, revealing, illustrative, expository, illuminating, elucidatory
+açık
+open, outdoor, clear, obvious, light, revealing
+dekolte
+revealing, decollete, lownecked, low-cut
 
 

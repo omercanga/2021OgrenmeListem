@@ -68,3 +68,19 @@ docker container  run --name ikincicontainer omercanga/app1
 
 liberty server pull etmek yani indirmek
 docker pull websphere-liberty
+
+# Day-11
+Django: Python Programlama diliyle yazılmış MTV mimari deseni kullanılan, yüksek seviyeli web kütüphanesidir.
+
+# Day-12
+Flask: Güçlü ve kolay öğrenilebilen bir kütüphanedir. Hafif uygulamalar ve projeler için uygundur.
+
+# Day-13
+CherryPy: Nesne Yönelimli Programlama’ya dayalı web geliştirme ortamıdır.
+Web2Py: Web uygulamaları geliştirmek için kullanılan tüm web kütüphanelerinin en basitidir.
+
+# Day-14
+Özel Nesnelerin inşasında ve başlatılmasında kullanılan Python'un 3 sihirli yöntemi
+__init()__
+__new()__
+__del()__

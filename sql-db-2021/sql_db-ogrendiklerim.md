@@ -129,3 +129,21 @@ The where clause works on row’s data, not on aggregated data.
 Like operator for integer
 SELECT * FROM WHERE CAST(phone AS VARCHAR(9)) LIKE '%0203'
 
+# Day-12
+ “Delete” ve “truncate” komutları arasındaki farklar; Ana fark delete komutu tablodan tek sıra silerken truncate hepsini siler.
+Diğer bir önemli fark delete kullanıldıktan sonra bir sorun çıktığı zaman geri almak için kullanılmasıdır.
+truncate komutu kullanıldığında böyle bir şey gerçekleştirilemez. Ayrıca truncate oldukça hızlıdır.
+
+# Day-13
+“table” ve “field” ;Table sıralara ve sütunlara dönüştürülmüş organize verilerdir.
+Field ise bir table’daki sütunların sayısıdır.
+
+# Day-14
+“join” nedir?
+join komutu farklı table’lardan sıraları birleştirir. Bu sıraların birleşme şekli onlarla birlikte olan sütunlara göre değişir.
+Bu komut sayesinde iki table’ı bir bütün haline getirebilir veya bir table’dan diğerine veri aktarabilirsiniz.
+Toplamda dört farklı join türü vardır: inner, full, left ve right.
+
+# Day-14
+“view” nedir?
+view, table’ın sanal temsilidir. View’lar bir table’dan fazla veriyi yansıtabilir ve birleştirilebilir. Oldukça durum ve ilişki bağımlıdır.
