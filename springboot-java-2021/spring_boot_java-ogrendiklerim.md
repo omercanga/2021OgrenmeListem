@@ -182,3 +182,24 @@ Bu özellikler varsayılan değerdedir ve özellik dosyası içinde ayarlayabili
 Özellikler, değerleri ayarlamak için kullanılır. 
 Örneğin; server-port numarası (number), veritabanı bağlantı ayarları (database connection configuration) vb.
 [Kaynak](https://www.kampuskod.com/yazilim/java/spring-boot-mulakat-sorulari-1/ )
+
+#Day-15
+## DTO, DAO, POJO/Bean ve JavaBean Nedir Nerelerde Kullanılır?
+
+## DAO(Data Access Object):
+Genellikle veri tabanı üzerinde yapılacak işlemleri yüklenen sınıflardır. DAO içine database işlemlerimizi yazıp programda karışıklık ve tekrar tekrar kullanmanın(code reuse) önünü açarız.
+
+## DTO(Data Transfer Object):
+Adından anlaşılacağı üzere bu objeler katmanlar, birimler arasında sadece veri aktarımı için kullanılırlar. (DB ve JVM arasında örneğin , JVM-JVM arasında)
+- Depolama dışında herhangi bir yükümlülükleri yoktur.
+- Setter/getter kullanmına gerek yoktur. Tüm veriler public olarak tutulabilir.
+
+## JavaBean:
+JavaBean dediğimiz objeler veri tutma amaçlı kullanılırlar. Bir objenin JavaBean olarak sayılabilmesi için 3 şartı sağlaması gereklidir.
+- Serializable olmalı.
+- Parametresi yapıcı metodu olmalı.(No parameter constructor)
+- Public setter/getter metodlarına sahip olmalı
+
+## POJO/Bean(Plain Old Java Object):
+Bu obje de veri depolamak için kullanılırlar. JavaBean den farklı herhangi bir zorlamaya sahip değildir. Örneğin kullanıcı bilgilerini tutacağımız bir objeye UserBean diyebiliriz.
+[Kaynak](https://hasanmen.blogspot.com/2016/08/dto-dao-pojobean-ve-javabean-nedir.html )
