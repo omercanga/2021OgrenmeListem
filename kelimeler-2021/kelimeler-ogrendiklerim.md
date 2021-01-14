@@ -115,4 +115,12 @@ open, outdoor, clear, obvious, light, revealing
 dekolte
 revealing, decollete, lownecked, low-cut
 
+#Day-16
+yağma
+spoil, plunder, looting, loot, pillage, swag
+ganimet
+loot, booty, godsend, trophy, prize, plunder
+talan
+pillage, loot, spoliation, depredation
+
 
