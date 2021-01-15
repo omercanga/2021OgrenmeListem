@@ -183,7 +183,7 @@ Bu özellikler varsayılan değerdedir ve özellik dosyası içinde ayarlayabili
 Örneğin; server-port numarası (number), veritabanı bağlantı ayarları (database connection configuration) vb.
 [Kaynak](https://www.kampuskod.com/yazilim/java/spring-boot-mulakat-sorulari-1/ )
 
-#Day-15
+# Day-15
 ## DTO, DAO, POJO/Bean ve JavaBean Nedir Nerelerde Kullanılır?
 
 ## DAO(Data Access Object):
@@ -203,3 +203,75 @@ JavaBean dediğimiz objeler veri tutma amaçlı kullanılırlar. Bir objenin Jav
 ## POJO/Bean(Plain Old Java Object):
 Bu obje de veri depolamak için kullanılırlar. JavaBean den farklı herhangi bir zorlamaya sahip değildir. Örneğin kullanıcı bilgilerini tutacağımız bir objeye UserBean diyebiliriz.
 [Kaynak](https://hasanmen.blogspot.com/2016/08/dto-dao-pojobean-ve-javabean-nedir.html )
+
+# Day-16
+Hibernate, veritabanı ile etkileşim kurmak için Java uygulama geliştirmelerini kolaylaştıran bir Java Frameworku’dur. 
+Hibernate açık kaynak kodlu, hafif, ORM (Nesne İlişkisel Haritalama/Eşleme (Object Relational Mapping) ) aracıdır. 
+Hibernate, veri sürekliliği için JPA’nın tanımlamalarını uygular.
+
+ORM Tool Nedir?
+ORM tool (aracı), veri oluşturma, veri değiştirme ve veri erişimini basitleştirir. 
+Veritabanı üzerinde saklanan verilere nesne eşleyen bir programlama tekniğidir.
+
+ORM tool, veritabanıyla etkileşim kurmak için JDBC API kullanır.
+
+JPA Nedir?
+Java Persistence API (JPA), ORM araçlarına (tools) belirli fonksiyonellik ve standart sağlayan bir Java spesifikasyonudur. 
+javax.persistence paketi, JPA sınıfları ve arayüzlerini içerir.
+
+Hibernate Framework Avantajları
+Açık Kaynak Kodlu ve Hafif (Open Source and Lightweight)
+Hibernate framework’u LGPL lisansı altında açık kaynak kodludur ve hafiftir.
+
+- Hızlı Performans (Fast Performance)
+Hibernate Framework’nun performansı hızlıdır çünkü cache (önbellek) kullanılır. 
+Hibernate Framework’te iki tür cache vardır: 
+    -İlk Seviye Cache ve İkinci Seviye Cache. İlk Seviye Cache varsayılan olarak gelmektedir.
+
+- Veritabanı Bağımsız Sorgu (Database Independent Query)
+HQL (Hibernate Query Language (Hibernate Sorgu Dili)) SQL’in nesne yönelimli bir versiyonudur. Veritabanından bağımsız sorgular üretir. Böylece, veritabanına özgü sorgular yazmanıza gerek yoktur. 
+
+Hibernate’den önce, proje için veritabanı değiştirilirse, bakım problemlerine yol açan SQL sorgusunu da değiştirmemiz gerekir.
+- Otomatik Tablo Oluşturma (Automatic Table Creation)
+
+Hibernate Framework, veritabanı tablolarını otomatik olarak oluşturmak için kolaylık sağlar. Bu yüzden, veritabanındaki tabloları manuel olarak eklenmesine gerek yoktur.
+- Karmaşık Birleşmeyi Basitleştirir (Simplifies Complex Join)
+
+Hibernate Framework’te birçok tablodan veri çekmek, kolaydır.
+- Sorgu İstatistikleri ve Veritabanı Durumunu Sağlar (Provides Query Statistics and Database Status)
+Hibernate, sorgu önbelleğini (cache) destekler ve sorgu ve veritabanı durumu hakkında istatistikler sağlar.
+
+[Kaynak](https://www.kampuskod.com/yazilim/java/hibernate-nedir-hibernate-framework-avantajlari-java-dersleri/ )
+
+
+# Day-17
+Equals() ve == arasında temek fark, birinin metot diğerinin operator olmasıdır.
+== operatörünü referans karşılaştırması (reference) (address comparison) için ve equals() metotunu içerik karşılaştırması için kullanırız. 
+Basitçe söylemek gerekirse, == her iki nesnenin aynı bellek konumuna işaret edip etmediğini denetlerken, .equals() nesnelerdeki değerlerin karşılaştırılmasını değerlendirir.
+```java
+
+public class KampusKod {
+    
+    public static void main(String[] args) {
+        String s1 = "KAMPUSKOD";
+        String s2 = "KAMPUSKOD";
+        String s3 = new String("KAMPUSKOD");
+        String s4 = new String("KAMPUSKOD");
+        
+        System.out.println(s1 == s2);
+        System.out.println(s1.equals(s2));
+        System.out.println(s3 == s4);
+        System.out.println(s3.equals(s4));
+    }
+
+}
+```
+Kod Çıktısı:
+```
+true
+true
+false
+true
+```
+
+[https://www.kampuskod.com/yazilim/java/javada-ve-equals-farki-java-dersleri/ ]

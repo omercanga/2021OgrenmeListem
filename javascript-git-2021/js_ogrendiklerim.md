@@ -192,7 +192,13 @@ Node JS , back-end geliştirme ve uygulama işlemlerini gerçekleştirmek için 
 
 # Day-15
 Node JS kullanmak için bir kaç sebep;Hızlı, asenkron, tek bir genelleştirilmiş programlama dili ve veri türü vb...
-
 Genel olarak, Node JS JavaScript tabanlı sunucu tarafı geliştirme söz konusu olduğunda mevcut piyasadaki en iyi araçlardan biridir. 
 
-
+# Day-16
+ “Real DOM”u ve “Virtual DOM”:
+DOM, Document Object Model’in (Belge Nesne Modeli) kısaltmasıdır. DOM’lar bazı özel metinleri anlamak için kullanılır. 
+Örneğin web ve uygulama geliştirmede DOM, HTML metinlerini temsil etmek için kullanılır.
+React JS virtual DOM’dan faydalanır. Temel olarak React’ın HTML metinlerinin basitleştirilmiş bir kopyasıdır.
+React’ın “virtual DOM” kullanması bu JavaScript kütüphanesi hakkında konuşulurken sık sık ele alınan iyi yönlerden biridir. 
+React JS sorunuza gelince, bu sorudan sonra “virtual DOM”un “real DOM”dan neden üstün olduğu sorulabilir. 
+Cevap oldukça basit; virtual DOM real olandan çok daha hızlı ve ucuzdur.

@@ -147,3 +147,9 @@ Toplamda dört farklı join türü vardır: inner, full, left ve right.
 # Day-14
 “view” nedir?
 view, table’ın sanal temsilidir. View’lar bir table’dan fazla veriyi yansıtabilir ve birleştirilebilir. Oldukça durum ve ilişki bağımlıdır.
+
+# Day-15
+constraint’ler, bir table’da kullanılan belli bir veri türünün sayısının belirtmek için kullanılan komutlardır.
+
+# Day-16
+SQL query’leri içerisinde şu anki saati ve tarihi günü gösteren GetDate() komutu mevcuttur.
