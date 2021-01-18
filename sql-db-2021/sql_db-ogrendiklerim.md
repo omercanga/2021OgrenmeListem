@@ -153,3 +153,22 @@ constraint’ler, bir table’da kullanılan belli bir veri türünün sayısın
 
 # Day-16
 SQL query’leri içerisinde şu anki saati ve tarihi günü gösteren GetDate() komutu mevcuttur.
+
+# Day-17
+Denormalization, veri tabanına üst formlardan alt formlara doğru eriştiğiniz işlemdir.
+
+# Day-18
+-Tasarım Desenleri (Design Patterns) kullanmak gerekli midir, neden?  Bildiğiniz tasarım örüntüleri?
+
+--OOP prensipleri nelerdir?  Abstraction, Sarmalama(encapsulation), polimorfizm, kalıtım(inheritence) ve herbiri nedir acıkla?
+--Web Service nedir? Ne işe yarar?
+--Servlet nedir?
+--XML nedir, XSD nedir ?
+--Yazılım yaşam döngüsü adımları nelerdir ?
+--hibernate ne işe yarar? faydası nedir?
+--maven nedir? ne işe yarar?
+--Javada değişken tanımlanırken hangisi kullanılabilir
+  a) # b)@ c)$ d)* e)^
+
+# Day-19
+-- abstract class ile interface arasında ne farkvardır?
