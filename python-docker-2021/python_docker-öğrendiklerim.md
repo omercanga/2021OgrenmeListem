@@ -84,3 +84,85 @@ Web2Py: Web uygulamaları geliştirmek için kullanılan tüm web kütüphaneler
 __init()__
 __new()__
 __del()__
+
+# Day-15
+Run Jenkins on Docker
+First, clone the project:
+git clone https://github.com/fabianenardon/jenkins-docker-demo
+docker-compose up
+[https://github.com/docker/labs/blob/master/developer-tools/java/chapters/ch09-cicd.adoc]
+
+# Day-16
+python init kullanım
+```python
+class Dog:
+
+    def __init__(self, name, age):  
+        self.name = name
+        self.age = age
+
+    def bark(self):
+        print("bark bark!")
+
+    def doginfo(self):
+        print(self.name + " is " + str(self.age) + " year(s) old.")
+
+    def birthday(self):
+        self.age +=1
+```
+# Day-17
+Python Tuple is used to store the sequence of immutable Python objects. 
+The tuple is similar to lists since the value of the items stored in the list can be changed, whereas the tuple is immutable, and the value of the items stored in the tuple cannot be changed.
+
+Creating a tuple
+A tuple can be written as the collection of comma-separated (,) values enclosed with the small () brackets. The parentheses are optional but it is good practice to use. A tuple can be defined as follows.
+
+T1 = (101, "Peter", 22)    
+T2 = ("Apple", "Banana", "Orange")     
+T3 = 10,20,30,40,50  
+  
+print(type(T1))  
+print(type(T2))  
+print(type(T3))  
+
+# Day-18
+Python Tuple Negative Indexing
+The tuple element can also access by using negative indexing. The index of -1 denotes the rightmost element and -2 to the second last item and so on.
+
+The elements from left to right are traversed using the negative indexing. Consider the following example:
+```python
+tuple1 = (1, 2, 3, 4, 5)    
+print(tuple1[-1])    
+print(tuple1[-4])    
+print(tuple1[-3:-1])  
+print(tuple1[:-1])  
+print(tuple1[-2:])  
+```
+Output:
+```
+5
+2
+(3, 4)
+(1, 2, 3, 4)
+(4, 5)
+```
+
+Deleting Tuple
+Unlike lists, the tuple items cannot be deleted by using the del keyword as tuples are immutable. To delete an entire tuple, we can use the del keyword with the tuple name.
+Consider the following example.
+```python
+tuple1 = (1, 2, 3, 4, 5, 6)    
+print(tuple1)    
+del tuple1[0]    
+print(tuple1)    
+del tuple1    
+print(tuple1)    
+```
+Output:
+```
+(1, 2, 3, 4, 5, 6)
+Traceback (most recent call last):
+  File "tuple.py", line 4, in <module>
+    print(tuple1)
+NameError: name 'tuple1' is not defined
+```
