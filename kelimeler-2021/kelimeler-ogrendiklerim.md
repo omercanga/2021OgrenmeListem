@@ -115,7 +115,7 @@ open, outdoor, clear, obvious, light, revealing
 dekolte
 revealing, decollete, lownecked, low-cut
 
-#Day-16
+# Day-16
 yağma
 spoil, plunder, looting, loot, pillage, swag
 ganimet
@@ -123,13 +123,13 @@ loot, booty, godsend, trophy, prize, plunder
 talan
 pillage, loot, spoliation, depredation
 
-#Day-17
+# Day-17
 put up, çıkarmak
 anyway, neyse
 stand for , temsil etmek
 contrition, pişmanlık
 
-#Day-16
+# Day-18
 drop in, uğramak
 look up to, birisine saygı duymak
 fall for, birisine aşık olmak
