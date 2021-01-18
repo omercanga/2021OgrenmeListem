@@ -123,4 +123,14 @@ loot, booty, godsend, trophy, prize, plunder
 talan
 pillage, loot, spoliation, depredation
 
+#Day-17
+put up, çıkarmak
+anyway, neyse
+stand for , temsil etmek
+contrition, pişmanlık
 
+#Day-16
+drop in, uğramak
+look up to, birisine saygı duymak
+fall for, birisine aşık olmak
+loot, yağmalamak
