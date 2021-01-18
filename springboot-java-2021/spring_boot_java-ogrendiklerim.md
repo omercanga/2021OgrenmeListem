@@ -273,5 +273,24 @@ true
 false
 true
 ```
-
 [https://www.kampuskod.com/yazilim/java/javada-ve-equals-farki-java-dersleri/ ]
+
+# Day-18
+Given String s, is there a good way of testing whether VALUES contains
+Arrays.asList(yourArray).contains(yourValue)
+
+```java
+String[] fieldsToInclude = { "id", "name", "location" };
+
+if ( ArrayUtils.contains( fieldsToInclude, "id" ) ) {
+    // Do some stuff.
+}
+```
+Başka bir örnek
+```java
+String testValue="test";
+String newValueNotInList="newValue";
+String[] valueArray = { "this", "is", "java" , "test" };
+Arrays.asList(valueArray).contains(testValue); // returns true
+Arrays.asList(valueArray).contains(newValueNotInList); // returns false
+```
