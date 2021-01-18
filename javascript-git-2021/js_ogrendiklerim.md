@@ -202,3 +202,19 @@ React JS virtual DOM’dan faydalanır. Temel olarak React’ın HTML metinlerin
 React’ın “virtual DOM” kullanması bu JavaScript kütüphanesi hakkında konuşulurken sık sık ele alınan iyi yönlerden biridir. 
 React JS sorunuza gelince, bu sorudan sonra “virtual DOM”un “real DOM”dan neden üstün olduğu sorulabilir. 
 Cevap oldukça basit; virtual DOM real olandan çok daha hızlı ve ucuzdur.
+
+# Day-17
+```js
+Compare two strings in the current locale:
+var str1 = "cd";
+var str2 = "ab";
+var n = str1.localeCompare(str2);
+```
+# Day-18
+JavaScript Date Reference
+```js
+var d = new Date();
+var d = new Date(milliseconds);
+var d = new Date(dateString);
+var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
+```
