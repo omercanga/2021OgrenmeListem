@@ -134,3 +134,41 @@ drop in, uğramak
 look up to, birisine saygı duymak
 fall for, birisine aşık olmak
 loot, yağmalamak
+
+# Day-19
+soket
+socket, sock, anklet, bobby socks, anklesock
+priz
+outlet, socket, plug, jack, power outlet, receptacle
+duy
+socket, holder, receptacle, snout
+
+# Day-20
+hızlı
+fast, quick, rapid, swift, speedy, express
+çabuk
+quick, fast, rapid, snappy, swift, prompt
+süratli
+fast, speedy, quick, swift, express, fastmoving
+
+# Day-21
+ters
+reverse, opposite, inverse, adverse, contrary, inverted
+geri
+back, rear, backward, reverse, reversing, rearward
+zıt
+opposite, opposed, counter, adverse, reverse, conflicting
+
+# Day-22
+beceriksizlik
+incompetence, awkwardness, clumsiness, ineptitude, muff, bungle
+acemilik
+awkwardness, inexperience, greenness, clumsiness, rawness, verdancy
+terslik
+misfortune, awkwardness, hitch, contrariness, perversity, reverse
+aksilik
+mishap, setback, tantrum, moodiness, hitch, awkwardness
+kullanışsızlık
+unhandiness, impracticability, awkwardness
+sakarlık
+awkwardness, clumsiness, maladroitness, unhandiness

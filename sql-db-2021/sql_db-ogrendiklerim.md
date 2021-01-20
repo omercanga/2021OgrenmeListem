@@ -158,17 +158,56 @@ SQL query’leri içerisinde şu anki saati ve tarihi günü gösteren GetDate()
 Denormalization, veri tabanına üst formlardan alt formlara doğru eriştiğiniz işlemdir.
 
 # Day-18
--Tasarım Desenleri (Design Patterns) kullanmak gerekli midir, neden?  Bildiğiniz tasarım örüntüleri?
-
---OOP prensipleri nelerdir?  Abstraction, Sarmalama(encapsulation), polimorfizm, kalıtım(inheritence) ve herbiri nedir acıkla?
---Web Service nedir? Ne işe yarar?
---Servlet nedir?
---XML nedir, XSD nedir ?
---Yazılım yaşam döngüsü adımları nelerdir ?
---hibernate ne işe yarar? faydası nedir?
---maven nedir? ne işe yarar?
---Javada değişken tanımlanırken hangisi kullanılabilir
-  a) # b)@ c)$ d)* e)^
+Unique :Her bir verinin birbirinden farklı olmasın sağlanmasıdır.
+````sql
+CREATE TABLE kisiler (
+  kisi_sira INT UNIQUE,
+  kisi_adi VARCHAR(20),
+  kisi_soyadi VARCHAR(30),
+  kisi_eposta VARCHAR(50)
+);
+````
+[https://www.yusufsezer.com.tr/sql-foreign-key/]
 
 # Day-19
--- abstract class ile interface arasında ne farkvardır?
+primary key kavramı Unique kısıtlamasına benzer bir kullanımı olmasına rağmen farkı değer olarak NULL içermemesi ve her tabloya sadece bir tane eklenebilmesidir. Özetle primary keyin kullanım amacı her bir satırın farklı olmasını garantilemektir.
+````sql
+CREATE TABLE kisiler (
+  kisi_sira INT,
+  kisi_adi VARCHAR(20),
+  kisi_soyadi VARCHAR(20),
+  kisi_eposta VARCHAR(50),
+  CONSTRAINT PK_sira_eposta PRIMARY KEY(kisi_sira, kisi_eposta)
+);
+````
+[https://www.yusufsezer.com.tr/sql-foreign-key/]
+# Day-20
+Foreign key :SQL Primary Key  veya SQL Unique  ile birlikte iki tabloyu ilişkilendirmek için kullanılan bir kısıtlamadır. 
+Kısıtlamasının kullanım amacı veri bütünlüğünü sağlamaktır
+````sql
+CREATE TABLE tablo_adi (
+  sutun_adi veritipi kısıtlama,
+  ...
+  ...
+  CONSTRAINT FK_adi FOREIGN KEY (sutun_adi) REFERENCES diger_tablo_adi(diger_sutun_adi)
+    ON UPDATE <EYLEM>
+    ON DELETE <EYLEM>
+);
+````
+[https://www.yusufsezer.com.tr/sql-foreign-key/]
+
+# Day-21
+Foreign key eylemleri
+Foreign key kısıtlamasına ait eylemler kullanılan VTYS göre değişmektedir.
+- CASCADE
+- NO ACTION
+- SET NULL
+- NOT: 
+- RESTIRCT
+
+# Day-22
+CASCADE: REFERENCES ile belirtilen sütunda bir eylem (UPDATE, DELETE) olduğunda Foreign key ile belirtilen ilişkili sütunda benzer eylemi yapar.
+NO ACTION: Foreign key sütunu ve REFERENCES ile belirtilen sütunda bir ilişki varsa, REFERENCES ile belirtilen sütunda bir eyleme (UPDATE, DELETE) izin vermez.
+SET NULL: REFERENCES ile belirtilen sütunda bir eylem (UPDATE, DELETE) olduğunda Foreign key ile belirtilen ilişkili sütunu NULL yapar.
+NOT: Foreign key sütununda NOT NULL kısıtlaması varsa hata verir.
+RESTIRCT: MySQL VTYS içerisinde bulunan bu eylem NO ACTION: ile aynı işleve sahiptir.

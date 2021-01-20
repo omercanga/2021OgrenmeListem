@@ -294,3 +294,72 @@ String[] valueArray = { "this", "is", "java" , "test" };
 Arrays.asList(valueArray).contains(testValue); // returns true
 Arrays.asList(valueArray).contains(newValueNotInList); // returns false
 ```
+# Day-19
+-Tasarım Desenleri (Design Patterns) kullanmak gerekli midir, neden? 
+Tasarım desenleri temel olarak, tasarım prensiplerinin bir amaç için sınıf seviyesinde birlikte kullanılmasıdır. Desenler, yazılım geliştiricilerin zaman içersinde deneme/yanılma, iyi/kötü tecrübelerinin sonucunda ortaya çıkmış yazılım geliştirme teknikleridir.
+-Tasarım desenleri iki esasa bağlıdırlar. Tekrar kullanılabilirlik ve esneklik. Yazılan kodlar bu esasa göre yazılmışsa iyi bir yazılım geliştirilmiş denilebilir. Tasarım Desenleri; Creational, Structural ve Behavioral olmak üzere 3 başlığa ayrılır.
+- Creational Patterns (Yaratımsal)
+Factory Method
+Abstact Factory
+Builder
+Singleton
+Prototype
+- Structural Patterns (Yapısal)
+Adapter
+Facade Method
+Decorator
+Bridge
+Composite
+Proxy
+Flyweight
+- Behavioral Patterns (Davranışsal)
+Command
+Strategy
+Observer
+State
+Template
+Iterator
+Interpreter
+Memento
+Chain of Responsibility
+Mediator
+Visitor
+[https://medium.com/gokhanyavas/tasar%C4%B1m-desenleri-gof-design-patterns-16e93e54a92d]
+# Day-20
+--OOP prensipleri nelerdir?  Abstraction, Sarmalama(encapsulation), polimorfizm, kalıtım(inheritence) ve herbiri nedir acıkla?
+İyi bir kod tasarımı için uyulması gereken bazı prensipler vardır. Prensipler zorunlu değildir fakat uyulduğunda hem dünya çapında standart bir kod yazmış oluruz hem de sürdürülebilirliği yüksek bir iş ortaya çıkar. 
+1-Abstraction(Soyutlama):
+2-İnheritance(Kalıtım):
+3-Encapsulation(Kapsülleme):
+4-Polymorphism(Çok Biçimlilik):
+[https://medium.com/@kamer.dev/oopnin-4-ana-prensibi-encapsulation-inheritence-abstraction-polymorphism-712ed2fbac7e]
+[https://medium.com/@sumeyyeturkmen/4-temel-oop-prensibi-9bd4a36d35a1]
+
+# Day-21 
+1-Abstraction(Soyutlama):
+Detayların, karmaşıklığın azaltılması anlamına gelmektedir.Bir nesnenin neleri içermesi gerektiğine odaklanmayı ve önemli bilgileri gösterirken istenmeyen ayrıntıları gizlemeyi amaçlar. Büyük projelerde yapılan çalışmaların hepsini bilmek gereksizdir.Projelerin detaylarında kaybolmak yerine işlevleri göstermeye odaklanmak projeyi daha iyi anlamamızı sağlar.
+
+# Day-22
+2-İnheritance(Kalıtım):
+Türkçe karşılığı ‘miras alma, kalıtım’dır. Inheritance; bir nesnenin özelliklerinin başka nesneler tarafından kullanılabilmesine olanak sağlar. Sınıflar arasında hiyearşik bir yapı kurabilmek için kullanılır. Inheritance bir sınıfın kendi özellikleri ve metotları yanı sıra kalıtım aldığım base(taban) sınıfın özellikleri ve metotlarına da sahip olabilmesidir.Ancak kalıtım alan sınıf herhangi bir özellik veya metoda sahip olmasa da olur.
+# Day-23
+3-Encapsulation(Kapsülleme):
+Bir varlığı bütün olarak ele almak ve varlığın yapısını dışarıyla oluşabilecek sonuçlara karşı korumayı amaçlar.Bu mekanizma hakkında genel fikir basittir. Bir nesnede dışarıdan görünmeyen bir özelliğiniz varsa ve erişimi sağlayan yöntemlerle bir araya getirirseniz, belirli bilgileri gizleyebilir ve nesnenin iç durumuna erişimi kontrol edebilirsiniz.
+# Day-24
+4-Polymorphism(Çok Biçimlilik):
+Genel olarak, birçok biçimde görünme yeteneği.OOP(Nesneye yönelik programlama)’da, polimorfizm, bir programlama dilinin veri türüne veya sınıfına bağlı olarak nesneleri farklı şekilde işleme yeteneğini ifade eder.Daha spesifik olarak, türetilmiş sınıflar için yöntemleri yeniden tanımlama yeteneğidir. OOP’de polimorfizmin en yaygın kullanımı, bir alt sınıf nesnesini belirtmek için bir üst sınıf referansı kullanıldığında ortaya çıkar.
+[https://medium.com/@kamer.dev/oopnin-4-ana-prensibi-encapsulation-inheritence-abstraction-polymorphism-712ed2fbac7e]
+[https://medium.com/@sumeyyeturkmen/4-temel-oop-prensibi-9bd4a36d35a1]
+
+
+
+
+
+--Web Service nedir? Ne işe yarar?
+--Servlet nedir?
+--XML nedir, XSD nedir ?
+--Yazılım yaşam döngüsü adımları nelerdir ?
+--hibernate ne işe yarar? faydası nedir?
+--maven nedir? ne işe yarar?
+--Javada değişken tanımlanırken hangisi kullanılabilir
+  a) # b)@ c)$ d)* e)^

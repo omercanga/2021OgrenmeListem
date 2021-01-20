@@ -218,3 +218,42 @@ var d = new Date(milliseconds);
 var d = new Date(dateString);
 var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
 ```
+# Day-19
+typeof= değişken veri türünü öğrenmek için  typeof operatorü kullanılır.
+```js
+<script>
+  alert(typeof "Yusuf");                  // "string"
+  alert(typeof 3.14);                     // "number"
+  alert(typeof NaN);                      // "number"
+  alert(typeof false);                    // "boolean"
+  alert(typeof [1,2,3,4]);                // "object"
+  alert(typeof {name:'Yusuf', kilo:78});  // "object"
+  alert(typeof new Date());               // "object"
+  alert(typeof function () {});           // "function"
+  alert(typeof xSayisi);                  // "undefined"
+  alert(typeof null);                     // "object"
+</script>
+```
+[https://www.yusufsezer.com.tr/javascript-tip-donusumleri/]
+# Day-20
+java scriptte değer içermeyen 2 değişken türü vardır. 
+- null 
+- undefined
+[https://www.yusufsezer.com.tr/javascript-tip-donusumleri/]
+
+# Day-21
+java scirptte  3 farklı nesne türü vardır.
+Object
+Date
+Array
+[https://www.yusufsezer.com.tr/javascript-tip-donusumleri/]
+
+# Day-22
+java scirptte  değer saklanabilen 5 değişken türü vardır.
+- string 
+- number 
+- boolean
+- object
+- function
+[https://www.yusufsezer.com.tr/javascript-tip-donusumleri/]
+
