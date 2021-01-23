@@ -280,9 +280,13 @@ JavaScript kodları sayfaya aşşagıdaki şekillerde eklenebilir;
 ``<button onclick="alert('Merhaba JavaScript')">Tıkla</button>``
 3. JavaScript kodları harici  ``.js`` uzantılı dosyaya yazıldıktan sonra ``<script>`` etiketi ``src`` özelliğine dosya adını belirterek yazılabilir.
 JavaScript kodları (ornek.js)
-``alert("Merhaba JavaScript");``
+````javascript
+alert("Merhaba JavaScript");
+````
 HTML kodları
-``<script src="ornek.js"></script>``
+````
+<script src="ornek.js"></script>
+````
 
 
 
