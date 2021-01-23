@@ -257,3 +257,35 @@ java scirptte  değer saklanabilen 5 değişken türü vardır.
 - function
 [https://www.yusufsezer.com.tr/javascript-tip-donusumleri/]
 
+# Day-23
+js-Ekrana yazdırma işlemi;
+- HTML nesnelerine yazdırma – innerHTML,
+- HTML sayfasına yazdırma – document.write(),
+- Uyarı pencersine yazdırma – alert(),
+- Tarayıcı konsoluna yazdırma – console.log()
+
+# Day-24
+ Uzun JavaScript komutları sayfa açılışını yavaşlatabilir. Bu yüzden Sayfa içinde yer alan veya harici JavaScript dosyalarında 
+ yer alan kodlar <body> etiketi sonuna eklenirse sayfa daha hızlı açılacaktır.
+ 
+# Day-25
+JavaScript kodları sayfaya şe şekillerde eklenebilir;
+- <script> </ script> etiketleri arasına yazılabilir.,
+````js
+<script>
+  alert("Merhaba JavaScript");
+</script>
+````
+- HTML elemanına tıklandığını ifade eden ``onclick`` HTML elemanının üzerine gelindiğini ifade eden ``onmouseover``  gibi HTML özelliklerine yazılabilir.
+``<button onclick="alert('Merhaba JavaScript')">Tıkla</button>``
+- JavaScript kodları harici  ``.js`` uzantılı dosyaya yazıldıktan sonra ``<script>`` etiketi ``src`` özelliğine dosya adını belirterek yazılabilir.
+JavaScript kodları (ornek.js)
+``alert("Merhaba JavaScript");``
+HTML kodları
+``<script src="ornek.js"></script>``
+
+
+
+
+
+ 
