@@ -16,8 +16,13 @@ String s1 = String.valueOf(ch1);
 String s2 = String.valueOf(ch2); 
 
 # Day-3
+Nulls and the dreaded NPE can be awful, but by maintaining encapsulation, keeping your code simple, and using nulls only in certain situations, you can come out on top.
 10 Tips to Handle Null Effectively
 https://dzone.com/articles/10-tips-to-handle-null-effectively
+
+````java
+if(degisken != Null) //istenen kontrol erme yöntemi
+````
 
 # Day-4
 debugging tricks

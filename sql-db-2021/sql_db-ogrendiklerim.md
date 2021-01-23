@@ -216,3 +216,33 @@ REFERENCES ile belirtilen sütunda bir eylem (UPDATE, DELETE) olduğunda Foreign
 Foreign key sütununda NOT NULL kısıtlaması varsa hata verir.
 ### RESTIRCT:
 MySQL VTYS içerisinde bulunan bu eylem NO ACTION: ile aynı işleve sahiptir.
+
+
+# Day-23
+inner join hap  bilgiler
+temel join çecitleri
+
+````sql
+SELECT tablo_adi.sutun_adi, ...
+  FROM tablo_A
+  {INNER JOIN | LEFT JOIN | RIGHT JOIN} tablo_B ON tablo_A.sutun_adi = tablo_B.sutun_adi;
+
+````
+
+
+# Day-24
+iki tabloyu aşağıdaki gibi sırayla yazarak birleştirerek te join ilemi yapılabilir.
+
+````sql
+SELECT * FROM kategoriler, urunler;
+````
+ve bu birleştirme türü CROSS JOIN  olarak adlandırılır.
+
+# Day-25
+Çogunlukla kullanılan join türleri
+- İnner Join: İki tablodaki eşleşen kayıtlar için kullanılır.
+- LEFT (OUTER) JOIN: İki tablodaki eşleşen kayıtlar ve eşleşmeyen sol kayıtlar için kullanılır.
+- RIGHT (OUTER) JOIN: İki tablodaki eşleşen kayıtlar ve eşleşmeyen sağ kayıtlar için kullanılır.
+- FULL (OUTER) JOIN:  İki tablodaki eşleşen kayıtlar ve eşleşmeyen sol ve sağ kayıtlar için kullanılır. LEFT ve RIGHT JOIN birleşimidir.
+
+-Left JOIN Ekleme,guncelleme,silme gibi işlemlerde kullanılabilir.

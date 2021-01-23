@@ -213,5 +213,34 @@ preserve
 Sistemin göçmesinden sonra zarar görmesi mümkün dosyaların kaydedildiği yer.
 spool
 Sonra işlenecek olan veriler buraya atılır (e-posta gibi)
-[http://www.belgeler.org/lis/archive-tlkg-lis-5.11.html]
-[https://www.yusufsezer.com.tr/linux-dizin-yapisi/]
+[http://www.belgeler.org/lis/archive-tlkg-lis-5.11.html 
+[https://www.yusufsezer.com.tr/linux-dizin-yapisi/ ]
+
+# Day-23
+linux kısayol tuşları
+- <CTRL> <Alt> <BackSpace>  – Grafik arayüzünü sonlandırır.
+- <Ctrl><Alt><Del>
+Sistemi yeniden başlatmak için kullanılır. Konsoldaki shutdown -r now veya reboot komutu gibi davranır. Makinanın üzerindeki sıfırlama (Reset) tuşuna basmayıp bunu tercih etmeniz gerekir, aksi takdirde ext2 gibi bazı dosya sistemleri sorun çıkarabilir.
+- <Tab>
+Bir uçbirimde yazmakta olduğunuz komutu tamamlar. Mesela README dosyasını okutmak için more RE yazıp TAB'a basarsanız o anda bulunduğunu dizindeki RE ile başlayan dosyaların listesini görürsünüz, eğer tek dosya varsa satır tamamlanır. Aynı şey komut isimleri için de geçerlidir, bas yazıp TAB'a bastığınızda hemen basename diye komutun tamamlandığını görürsünüz. (Bu işlem çok sayıda komutla eşleşme durumunda bazı uçbirimlerde iki defa TAB tuşuna basmayı gerektirebilir.)
+[http://www.belgeler.org/lis/archive-tlkg-lis-5.11.html ]
+
+# Day-24
+##Temel Linux Komutları
+### Sistem Komutları
+- uname -u : Sistem bilgisi(çekirdek sürümü, tarihi ve mimarisi)
+- uname -r : Çekirdek sürümü bilgisi
+- uptime : Sistemin ne kadar zamandır açık olduğunu ve yükü gösterir
+- hostname : Sistem adı
+- last reboot : Son kapanma listesi çalışma düzey değişikliği dahil
+- date : tarih hakkında bilgi verir
+- cal : takvim
+- w : hangi kullanıcı o anda hangi komutu çalıştırdığını görürüz.
+- whoami : o anki kullanılan kullanıcı adını verir
+- finger yakup : Kullanıcı hakkında bilgi verir
+- echo “user:passwd” | chpasswd : Tek satırda parola yenilemek
+ [https://yakupseker.medium.com/her-linux-kullan%C4%B1c%C4%B1s%C4%B1n%C4%B1n-bilmesi-gereken-temel-komutlar-ve-tu%C5%9F-k%C4%B1sayollar%C4%B1-125-komut-1552423cf7db ]
+
+# Day-25
+##Temel Linux Komutları
+### Donanım Komutları
