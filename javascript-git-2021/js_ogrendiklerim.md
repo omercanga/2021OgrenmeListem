@@ -279,7 +279,8 @@ JavaScript kodları sayfaya aşşagıdaki şekillerde eklenebilir;
 2. HTML elemanına tıklandığını ifade eden ``onclick`` HTML elemanının üzerine gelindiğini ifade eden ``onmouseover``  gibi HTML özelliklerine yazılabilir.
 ``<button onclick="alert('Merhaba JavaScript')">Tıkla</button>``
 3. JavaScript kodları harici  ``.js`` uzantılı dosyaya yazıldıktan sonra ``<script>`` etiketi ``src`` özelliğine dosya adını belirterek yazılabilir.
-JavaScript kodları (ornek.js)
+
+- JavaScript kodları (ornek.js)
 ````javascript
 alert("Merhaba JavaScript");
 ````
