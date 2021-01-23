@@ -269,16 +269,16 @@ js-Ekrana yazdırma işlemi;
  yer alan kodlar <body> etiketi sonuna eklenirse sayfa daha hızlı açılacaktır.
  
 # Day-25
-JavaScript kodları sayfaya şe şekillerde eklenebilir;
-- <script> </ script> etiketleri arasına yazılabilir.,
+JavaScript kodları sayfaya aşşagıdaki şekillerde eklenebilir;
+- * <script> </ script> etiketleri arasına yazılabilir.,
 ````js
 <script>
   alert("Merhaba JavaScript");
 </script>
 ````
-- HTML elemanına tıklandığını ifade eden ``onclick`` HTML elemanının üzerine gelindiğini ifade eden ``onmouseover``  gibi HTML özelliklerine yazılabilir.
+- * HTML elemanına tıklandığını ifade eden ``onclick`` HTML elemanının üzerine gelindiğini ifade eden ``onmouseover``  gibi HTML özelliklerine yazılabilir.
 ``<button onclick="alert('Merhaba JavaScript')">Tıkla</button>``
-- JavaScript kodları harici  ``.js`` uzantılı dosyaya yazıldıktan sonra ``<script>`` etiketi ``src`` özelliğine dosya adını belirterek yazılabilir.
+- * JavaScript kodları harici  ``.js`` uzantılı dosyaya yazıldıktan sonra ``<script>`` etiketi ``src`` özelliğine dosya adını belirterek yazılabilir.
 JavaScript kodları (ornek.js)
 ``alert("Merhaba JavaScript");``
 HTML kodları
