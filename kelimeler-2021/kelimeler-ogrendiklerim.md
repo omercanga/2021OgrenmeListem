@@ -1,9 +1,9 @@
 # day-1
-affection = sevgi
+* affection = sevgi
 - love, affection, fondness, compassion, affections, sympathy
-eğilim = tendency
+* eğilim = tendency
 - tendency, trend, propensity, inclination, disposition, affection
-etkileme =affection
+* etkileme =affection
 - affection, action, infectiousness, leavening, grip, leaven
 
 # day-2
