@@ -1,6 +1,6 @@
 # day-1
 * affection = sevgi
-love, affection, fondness, compassion, affections, sympathy
+- ``love, affection, fondness, compassion, affections, sympathy``
 * eğilim = tendency
 tendency, trend, propensity, inclination, disposition, affection
 * etkileme =affection
@@ -9,39 +9,39 @@ affection, action, infectiousness, leavening, grip, leaven
 # day-2
 
 tarak
-- comb, card, dredger, drag, scollop
+- ``comb, card, dredger, drag, scollop
 ibik
-- comb, crest, topknot
+- `` comb, crest, topknot
 fırça
-- brush, scrub, comb, scolding, whisk, rating
+- ``brush, scrub, comb, scolding, whisk, rating
 
 # day-3
 düşüncesiz
-- thoughtless, inconsiderate, impulsive, careless, heady, reckless
+- ``thoughtless, inconsiderate, impulsive, careless, heady, reckless
 atak
-- heady, mettlesome, daring, pushing, rash, reckless
+- ``heady, mettlesome, daring, pushing, rash, reckless
 açıkgöz
-- canny, heady, shrewd, smart, knowing, cunning
+- ``canny, heady, shrewd, smart, knowing, cunning
 
 # day-4
 zarif
-- elegant, gracious, graceful, stylish, neat, dainty
+- ``elegant, gracious, graceful, stylish, neat, dainty
 şık
-- stylish, elegant, chic, sleek, fashionable, classy
+- ``stylish, elegant, chic, sleek, fashionable, classy
 mükemmel
-- excellent, perfect, great, superb, ideal, elegant
+- ``excellent, perfect, great, superb, ideal, elegant
 
 # day-5
 çirkin
-- ugly, homely, unattractive, unsightly, hideous, inelegant
+- ``ugly, homely, unattractive, unsightly, hideous, inelegant
 kaba
-- rude, rough, coarse, bearish, crude, inelegant
+- ``rude, rough, coarse, bearish, crude, inelegant
 incelikten yoksun
-- incondite, inelegant
+- ``incondite, inelegant
 
 # Day-6
 kavramak
-- clutch, grip, understand, grasp, comprehend, bite
+- ``clutch, grip, understand, grasp, comprehend, bite
 anlamak
 - understand, figure out, sense, grasp, fathom, grip
 yakalamak
