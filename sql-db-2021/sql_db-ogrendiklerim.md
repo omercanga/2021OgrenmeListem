@@ -206,8 +206,13 @@ Foreign key kısıtlamasına ait eylemler kullanılan VTYS göre değişmektedir
 - RESTIRCT
 
 # Day-22
-CASCADE: REFERENCES ile belirtilen sütunda bir eylem (UPDATE, DELETE) olduğunda Foreign key ile belirtilen ilişkili sütunda benzer eylemi yapar.
-NO ACTION: Foreign key sütunu ve REFERENCES ile belirtilen sütunda bir ilişki varsa, REFERENCES ile belirtilen sütunda bir eyleme (UPDATE, DELETE) izin vermez.
-SET NULL: REFERENCES ile belirtilen sütunda bir eylem (UPDATE, DELETE) olduğunda Foreign key ile belirtilen ilişkili sütunu NULL yapar.
-NOT: Foreign key sütununda NOT NULL kısıtlaması varsa hata verir.
-RESTIRCT: MySQL VTYS içerisinde bulunan bu eylem NO ACTION: ile aynı işleve sahiptir.
+### CASCADE:
+REFERENCES: ile belirtilen sütunda bir eylem (UPDATE, DELETE) olduğunda Foreign key ile belirtilen ilişkili sütunda benzer eylemi yapar.
+### NO ACTION: 
+Foreign key sütunu ve REFERENCES ile belirtilen sütunda bir ilişki varsa, REFERENCES ile belirtilen sütunda bir eyleme (UPDATE, DELETE) izin vermez.
+### SET NULL: 
+REFERENCES ile belirtilen sütunda bir eylem (UPDATE, DELETE) olduğunda Foreign key ile belirtilen ilişkili sütunu NULL yapar.
+### NOT:
+Foreign key sütununda NOT NULL kısıtlaması varsa hata verir.
+### RESTIRCT:
+MySQL VTYS içerisinde bulunan bu eylem NO ACTION: ile aynı işleve sahiptir.
