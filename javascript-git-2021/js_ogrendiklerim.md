@@ -270,27 +270,61 @@ js-Ekrana yazdırma işlemi;
  
 # Day-25
 JavaScript kodları sayfaya aşşagıdaki şekillerde eklenebilir;
-1. <script> </ script> etiketleri arasına yazılabilir.,
-````javascript
+1. 
+```javascript
+<script> </ script> etiketleri arasına yazılabilir.,
+
 <script>
   alert("Merhaba JavaScript");
 </script>
 ````
+
 2. HTML elemanına tıklandığını ifade eden ``onclick`` HTML elemanının üzerine gelindiğini ifade eden ``onmouseover``  gibi HTML özelliklerine yazılabilir.
+
 ``<button onclick="alert('Merhaba JavaScript')">Tıkla</button>``
 3. JavaScript kodları harici  ``.js`` uzantılı dosyaya yazıldıktan sonra ``<script>`` etiketi ``src`` özelliğine dosya adını belirterek yazılabilir.
 
 - JavaScript kodları (ornek.js)
-````javascript
+
+```javascript
 alert("Merhaba JavaScript");
-````
+```
+
 HTML kodları
-````
+
+```html
 <script src="ornek.js"></script>
-````
+```
 
+# Day-26
+java script fonksiyon yazma
+```javascript
+<script>
+  function Topla(sayi1, sayi2) {
+    return sayi1 + sayi2;         // sayi1 ve sayi2 toplamını döndürür
+  }
+  alert(Topla(10, 5));
+</script>
 
+```
 
+# Day-27
+java script fonksiyon çağırma
+html nesnesine tıklandığında
+```javascript
+<button onclick="alert('Merhaba JavaScript');">Merhaba</button>
+```
+fonksiyon çağırma yapıldığında
+```javascript
+<script>
+function uyari(mesaj) {
+  alert(mesaj);
+}
+uyari("Merhaba JavaScript");
+</script>
+```
+
+# Day-28
 
 
  

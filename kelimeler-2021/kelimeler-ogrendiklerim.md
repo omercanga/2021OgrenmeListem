@@ -159,6 +159,7 @@ priz
 - ``outlet, socket, plug, jack, power outlet, receptacle``
 duy
 - ``socket, holder, receptacle, snout``
+
 # Day-20
 hızlı
 - ``fast, quick, rapid, swift, speedy, express``
@@ -166,25 +167,81 @@ hızlı
 - ``quick, fast, rapid, snappy, swift, prompt``
 süratli
 - ``fast, speedy, quick, swift, express, fastmoving``
+
 # Day-21
+
 ters
 - ``reverse, opposite, inverse, adverse, contrary, inverted``
 geri
-- ``back, rear, backward, reverse, reversing, rearward
+- ``back, rear, backward, reverse, reversing, rearward``
 zıt
-- ``opposite, opposed, counter, adverse, reverse, conflicting``
+- ``opposite, opposed, counter, adverse, reverse, conflicting`` 
+
 # Day-22
 beceriksizlik
 - ``incompetence, awkwardness, clumsiness, ineptitude, muff, bungle``
 acemilik
 - ``awkwardness, inexperience, greenness, clumsiness, rawness, verdancy``
+
 # Day-23
 terslik
 - ``misfortune, awkwardness, hitch, contrariness, perversity, reverse``
 aksilik
 - ``mishap, setback, tantrum, moodiness, hitch, awkwardness``
+
 # Day-24
 kullanışsızlık
 - ``unhandiness, impracticability, awkwardness``
 sakarlık
 - ``awkwardness, clumsiness, maladroitness, unhandiness``
+
+# Day-25
+- blow up, patlamak
+- şişirmek ,puff up, puff, pump up, pump, blow up, inflate
+- havaya uçurmak, blow up, explode, blast
+- tahrip etmek, destroy, devastate, demolish, blow up, batter down
+
+# Day-27
+
+- bring up, konuyu açmak
+- büyütmek, make big, enlarge, amplify, magnify, exaggerate, bring up
+- yetiştirmek, train, educate, cultivate, raise, grow, bring up
+- beslemek, feed, nourish, raise, breed, bring up, cherish
+
+# Day-28
+
+- break up, ayrılmak
+- bitirmek, finish, end, complete, terminate, conclude, break up
+- parçalamak, shred, tear to pieces, take to pieces, split, break up, dismember
+- üzmek, affect, afflict, aggrieve, agitate, break up, cast down
+
+# Day-29
+
+- come up, ortaya çıkmak
+- çıkmak ,exit, quit, go out, rise, walk out, come up
+- yaklaşmak ,approach, close, approximate, bear down on, come close to, come up
+- sokulmak, come close, nestle, snuggle, draw near, wriggle oneself into, come up
+
+# Day-30
+
+- give up, pesetmek
+- bırakmak, leave, quit, release, drop, let, give up
+- vazgeçmek, give up, forego, abandon, forgo, relinquish, desist
+- ele vermek, betray, give away, grass on, delate, peach against, give up
+
+
+- stand for , temsil etmek
+- look up to, saygı duymak hayran olmak birisine
+- affect, etkilemek
+- effect, etki
+- breathe, nefes almak 
+- breath, nefes
+- advise, nasihat etmek
+- advice, nasihat
+- complement,tamamlamak
+- compliment, iltifat etmek
+- farther, daha uzak
+- further, daha uzak
+
+
+

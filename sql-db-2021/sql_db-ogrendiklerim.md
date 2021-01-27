@@ -41,7 +41,7 @@ ORDER BY için sözdizimi (syntax – sintaks) aşağıdaki gibidir:
 SELECT kolon_adı(ları)
 FROM tablo_adı
 ORDER BY kolon_adı(ları) ASC|DESC
-```
+```s
 # Day-5
 GROUP BY Kullanımı
 
@@ -246,3 +246,45 @@ ve bu birleştirme türü CROSS JOIN  olarak adlandırılır.
 - FULL (OUTER) JOIN:  İki tablodaki eşleşen kayıtlar ve eşleşmeyen sol ve sağ kayıtlar için kullanılır. LEFT ve RIGHT JOIN birleşimidir.
 
 -Left JOIN Ekleme,guncelleme,silme gibi işlemlerde kullanılabilir.
+
+# Day-26
+- İnner Join: İki tablodaki eşleşen kayıtlar için kullanılır.
+```sql
+SELECT tablo_adi.sutun_adi, ...
+  FROM tablo_A AS t1
+  INNER JOIN tablo_B AS t2 ON t1.sutun_adi = t2.sutun_adi;
+
+```
+
+# Day-27
+- LEFT (OUTER) JOIN: İki tablodaki eşleşen kayıtlar ve eşleşmeyen sol kayıtlar için kullanılır.
+
+```sql
+SELECT tablo_adi.sutun_adi, ...
+  FROM tablo_A AS t1
+  LEFT JOIN tablo_B AS t2 ON t1.sutun_adi = t2.sutun_adi;
+
+```
+
+# Day-28
+- RIGHT (OUTER) JOIN: İki tablodaki eşleşen kayıtlar ve eşleşmeyen sağ kayıtlar için kullanılır.
+
+```sql
+SELECT tablo_adi.sutun_adi, ...
+  FROM tablo_A AS t1
+  RIGHT JOIN tablo_B AS t2 ON t1.sutun_adi = t2.sutun_adi;
+
+```
+
+
+# Day-28
+- FULL (OUTER) JOIN:  İki tablodaki eşleşen kayıtlar ve eşleşmeyen sol ve sağ kayıtlar için kullanılır. LEFT ve RIGHT JOIN birleşimidir.
+
+```sql
+SELECT tablo_adi.sutun_adi, ...
+  FROM tablo_A AS t1
+  FULL OUTER JOIN tablo_B AS t2 ON t1.sutun_adi = t2.sutun_adi;
+
+```
+
+# Day-29

@@ -244,3 +244,69 @@ Bir uçbirimde yazmakta olduğunuz komutu tamamlar. Mesela README dosyasını ok
 # Day-25
 ##Temel Linux Komutları
 ### Donanım Komutları
+- dmesq : Kernel mesajlarını verir
+- cat /proc/cpuinfo : İşlemci hakkında bilgi verir
+- cat /proc/meminfo : Bellek(RAM) hakkında bilgi verir
+- cat /proc interrupts : CPU Çekirdek sistem kesme listesi
+- lshw : Sistemin donanım konfigurasyon bilgileri
+- lsblk : Disk Bölümleme tablosu
+- free -m : Sistemde kullanılan ram bilgisi
+- lspci -tv : PCI cihazlarını listeler
+- lsusb -tv : USB cihazlarını listeler
+- dmidecode : BIOS donanım bilgisi
+- hdparm -i /dev/sda : Disk hakkında bilgi verir
+- hdparm -tT /dev/sda : Kullanılan disk için okuma hız testi
+- badblocks -s /dev/sda : Ulaşılamayan block tespiti
+ [https://yakupseker.medium.com/her-linux-kullan%C4%B1c%C4%B1s%C4%B1n%C4%B1n-bilmesi-gereken-temel-komutlar-ve-tu%C5%9F-k%C4%B1sayollar%C4%B1-125-komut-1552423cf7db ]
+
+# Day-26
+##Temel Linux Komutları
+### Kullanıcılar
+- cat /etc/passwd : Tüm kullanıcıları listeler
+- id : Kullanıcı id bilgisi
+- last : Sisteme en son giriş yapmış kullanıcıların bugünden geriye doğru listesi
+- who : Sisteme kayıtlı kullanıcılar
+- groupadd : Sistemde yeni bir grup oluşturur
+- useradd yakup : Sisteme yakup isimli bir kullanıcı ekler
+- userdel yakup : Sistemden yakup isimli kulllanıcıyı siler
+- usermod : Kullanıcı izinlerini değiştirme
+ [https://yakupseker.medium.com/her-linux-kullan%C4%B1c%C4%B1s%C4%B1n%C4%B1n-bilmesi-gereken-temel-komutlar-ve-tu%C5%9F-k%C4%B1sayollar%C4%B1-125-komut-1552423cf7db ]
+
+# Day-27
+##Temel Linux Komutları
+### Dosya Komutları
+- ls -la : Dosyaları listeler (a gizli olanlar, l detaylı)
+- pwd : Mevcut dizin gösterir
+- mkdir : Dizin oluşturur
+- rm : Dosya silme
+- rm -r : Dizin sil(alt dizinlerde dahil)
+- rm -f : Sormadan siler
+- rm -rf : Dizini ve alt dizinleri sormadan siler
+- cp : Dosyayı kopyala
+- cp -r home1 home2 : home1 isimli dizini home2 ye taşı yoksa kapyala
+- mv : Dosyaları taşıma
+- ln -s “/home/yakup/bgpdump” /usr/local/bin : bin klasörüne bgpdump uygulaması için kısayol oluşturur
+- touch : Dosya oluştur
+- cat : Dosya içeriğinin tümünü oku
+- more : Dosyanın içeriğini sayfalayarak göster
+- head : Dosya içeriğinin ilk 10 satırını göster
+- tail : Dosya içeriğinin son 10 satırını göster
+- tail -f : Dosyanın içeriğinin son 10 satırını anlık gösterir
+ [https://yakupseker.medium.com/her-linux-kullan%C4%B1c%C4%B1s%C4%B1n%C4%B1n-bilmesi-gereken-temel-komutlar-ve-tu%C5%9F-k%C4%B1sayollar%C4%B1-125-komut-1552423cf7db ]
+
+# Day-28
+##Temel Linux Komutları
+### İşlem Komutları
+- ps : Çalışan süreçler
+- ps aux | grep uygulama adı : Adı verilen uygulamanın çalışan süreçleri
+- pmap -x PID : İşlemin bellek haritası
+- kill : İşlemi bitir
+- killall : Bütün işlemleri bitir
+- pkill -f telnet : İşlemi bitir
+- bg : Durdurulmuş işleme arkaplanda devam et
+- fg : Arkaplanda yapılan işlemi ön plana getir
+ [https://yakupseker.medium.com/her-linux-kullan%C4%B1c%C4%B1s%C4%B1n%C4%B1n-bilmesi-gereken-temel-komutlar-ve-tu%C5%9F-k%C4%B1sayollar%C4%B1-125-komut-1552423cf7db ]
+
+# Day-29
+##Temel Linux Komutları
+###

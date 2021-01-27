@@ -378,7 +378,15 @@ dizi içeriside değer arayıp index bulma
 int indexDegeri=Collections.binarySearch(liste,"arananDeger")
 ````
 
+# Day-28
 --Web Service nedir? Ne işe yarar?
+Web servisler, farklı platformların arasındaki iletişimi standardize edilmiş bir takım protokellere ve veri formatlarına göre yapabilmeyi sağlayan yazılımlardır.
+Web servis geliştirmek için günümüzde iki farklı metodoloji kullanılıyor. Bunlardan birisi RESTful(Representation State Transfer), diğeri de SOAP(Simple Object Access Protocol) metodolojisidir.
+
+# Day-29
+RESTful,SOAP(Simple Object Access Protocol)
+
+
 --Servlet nedir?
 --XML nedir, XSD nedir ?
 --Yazılım yaşam döngüsü adımları nelerdir ?
