@@ -355,10 +355,28 @@ Bir varlığı bütün olarak ele almak ve varlığın yapısını dışarıyla 
 Genel olarak, birçok biçimde görünme yeteneği.OOP(Nesneye yönelik programlama)’da, polimorfizm, bir programlama dilinin veri türüne veya sınıfına bağlı olarak nesneleri farklı şekilde işleme yeteneğini ifade eder.Daha spesifik olarak, türetilmiş sınıflar için yöntemleri yeniden tanımlama yeteneğidir. OOP’de polimorfizmin en yaygın kullanımı, bir alt sınıf nesnesini belirtmek için bir üst sınıf referansı kullanıldığında ortaya çıkar.
 [https://medium.com/@kamer.dev/oopnin-4-ana-prensibi-encapsulation-inheritence-abstraction-polymorphism-712ed2fbac7e]
 [https://medium.com/@sumeyyeturkmen/4-temel-oop-prensibi-9bd4a36d35a1]
+# Day-25
+dizilerin dezavantajları
+- dizilere tek tip veri eklenebilmesi
+- oluşturken boyutlarının belirlenmesi
+- key value ilişkisi kurulamaması
 
+# Day-26
+arraylist listin özel bir türüdürür.
+````java
 
+List<String> listOrnegi=new ArrayList<String>();
 
-
+````
+# Day-27
+diziyi sıralamak için `sort` kullanılır ve search(arama) yapmak için mutlaka sıralı bir liste kullanılması gerekmektedir.
+````java
+Collections.sort(dizi) 
+````
+dizi içeriside değer arayıp index bulma
+````java
+int indexDegeri=Collections.binarySearch(liste,"arananDeger")
+````
 
 --Web Service nedir? Ne işe yarar?
 --Servlet nedir?
