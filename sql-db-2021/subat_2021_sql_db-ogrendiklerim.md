@@ -98,3 +98,19 @@ DOUBLE(size, d)	A floating point number value where the total digits are set by 
 DECIMAL(size, d)	An exact fixed point number where the total number of digits is set by the size parameters, and the total number of digits after the decimal point is set by the d parameter.
 For size, the maximum number is 65 and the default is 10, whilst for d, the maximum number is 30 and the default is 10.
 DEC(size, d)	Same as DECIMAL.
+
+# Day-18
+Data Type	Description
+DATE	A simple date in YYYY-MM–DD format, with a supported range from ‘1000-01-01’ to ‘9999-12-31’.
+
+# Day-19
+DATETIME(fsp)	A date time in YYYY-MM-DD hh:mm:ss format, with a supported range from ‘1000-01-01 00:00:00’ to ‘9999-12-31 23:59:59’.
+By adding DEFAULT and ON UPDATE to the column definition, it automatically sets to the current date/time.
+
+# Day-20
+TIMESTAMP(fsp)	A Unix Timestamp, which is a value relative to the number of seconds since the Unix epoch (‘1970-01-01 00:00:00’ UTC). This has a supported range from ‘1970-01-01 00:00:01’ UTC to ‘2038-01-09 03:14:07’ UTC.
+By adding DEFAULT CURRENT_TIMESTAMP and ON UPDATE CURRENT TIMESTAMP to the column definition, it automatically sets to current date/time.
+
+# Day-21
+TIME(fsp)	A time in hh:mm:ss format, with a supported range from ‘-838:59:59’ to ‘838:59:59’.
+YEAR	A year, with a supported range of ‘1901’ to ‘2155’.

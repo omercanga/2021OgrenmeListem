@@ -139,3 +139,95 @@ Aside from that you also have additional escape characters:
 \v — Vertical tabulator
 
 [https://websitesetup.org/javascript-cheat-sheet/]
+
+# Day-17
+JavaScript Event Handlers
+onabort
+onmous­edown
+onblur
+onmous­emove
+onchange
+onmouseout
+onclick
+onmous­eover
+ondblclick
+onmouseup
+ondragdrop
+onmove
+onerror
+onreset
+onfocus
+onresize
+onkeydown
+onselect
+onkeypress
+onsubmit
+onkeyup
+onunload
+onload
+
+
+# Day-18
+JavaScript Arrays
+concat()
+slice()
+join()
+sort()
+length
+splice()
+pop()
+toSource()
+push()
+toString()
+reverse()
+unshift()
+shift()
+valueOf()
+
+
+# Day-19
+JavaScript Dates
+Date()
+setMonth()
+getDate()
+setFul­lYear()
+getDay()
+setHours()
+getMonth
+setMin­utes()
+getFul­lYear
+setSec­onds()
+getYear
+setMil­lis­eco­nds()
+getHours
+setTime()
+getMinutes
+setUTC­Date()
+getSeconds
+setUTC­Day()
+getMil­lis­econds
+setUTC­Month()
+getTime
+setUTC­Ful­lYear()
+getTim­ezo­neO­ffset()
+setUTC­Hours()
+getUTC­Date()
+setUTC­Min­utes()
+getUTC­Day()
+setUTC­Sec­onds()
+getUTC­Month()
+setUTC­Mil­lis­eco­nds()
+getUTC­Ful­lYear()
+toSource()
+getUTC­Hours()
+toString()
+getUTC­Min­utes()
+toGMTS­tring()
+getUTC­Sec­onds()
+toUTCS­tring()
+getUTC­Mil­lis­eco­nds()
+toLoca­leS­tring()
+parse()
+UTC()
+setDate()
+valueOf()

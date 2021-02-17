@@ -188,3 +188,19 @@ Naturally, the methods handling the requests might take parameters. To help you 
 Another common way to provide information to the backend is to encode it in the URL. Then you can use the @PathVariable("placeholderName") annotation to bring the values from the URL to the method arguments.
 
 [https://www.jrebel.com/blog/spring-annotations-cheat-sheet]
+
+# Day-19
+Escape Characters
+In JavaScript, strings are marked with single or double-quotes. If you want to use quotation marks in a string, you need to use special characters:
+
+\' — Single quote
+\" — Double quote
+Aside from that you also have additional escape characters:
+
+\\ — Backslash
+\b — Backspace
+\f — Form feed
+\n — New line
+\r — Carriage return
+\t — Horizontal tabulator
+\v — Vertical tabulator

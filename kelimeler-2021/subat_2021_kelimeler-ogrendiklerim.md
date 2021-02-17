@@ -154,7 +154,14 @@ tembellik :laziness, sloth, idleness, sluggishness, indolence, inertia
 
 dinginlik :serenity, calmness, calm, composure, quietness, inertia
 
+# Day-19
+indolent = very lazy
 
+certain = very sure
+
+ecstatic =very hapy
+
+regadless off = iresspective of= bakılmaksızın
 
 
 

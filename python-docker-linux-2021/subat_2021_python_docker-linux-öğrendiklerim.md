@@ -198,3 +198,30 @@ allow you to refine your conditional checks.
 ```
 
 # Day-18
+ondalık sa yı yuvarlamak için 
+````python
+
+sayi=3.14238938383
+round(sayi,istenenBasamakSayisi)
+
+````
+eğer hesaplamada round metodu tek hane gösterirse sonucu
+round yerine
+
+````python
+
+sayi=3.14238938383
+{:,istenenBasamakSayisi}.format(sayi)
+
+````
+
+# Day-19
+f"string{deger}" formatında yazmak
+string ifade içinde değer atamak için
+aşşağıdaki gibi {} parenetezler içine değerler yazılır.
+
+````python
+
+print(f"string{deger}")
+
+````
