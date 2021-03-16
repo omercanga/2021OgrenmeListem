@@ -37,11 +37,12 @@ sıralamak için ORDER BY anahtar kelimesini kullanırız.
 Bu sıralama belirtilen kolona göre yapılır. Ve varsayılan olarak artan
 (küçükten büyüğe) sıradadır. 
 ORDER BY için sözdizimi (syntax – sintaks) aşağıdaki gibidir:
-``` sql
+```sql
 SELECT kolon_adı(ları)
 FROM tablo_adı
 ORDER BY kolon_adı(ları) ASC|DESC
-```s
+```
+
 # Day-5
 GROUP BY Kullanımı
 
@@ -122,8 +123,7 @@ QueryStore: SQL Server‘de plan değişikliklerinden dolayı yaşanılan perfor
 
 # Day-10
 HAVING ve  WHERE Arasında ki farklar
-the difference between the having and where clause in SQL is that the where clause cannot be used with aggregates, but the having clause can.
-The where clause works on row’s data, not on aggregated data. 
+WHERE ve HAVING deyimleri arasındaki temel fark şudur: WHERE satırları, gruplar ve ortak değerler hesaplanmadan önce seçer (ortak değer hesaplamasında kullanılacak satırları seçer), HAVING deyimi ise ortak değerler hesaplandıktan ve gruplamalar yapıldıktan sonra işleme sokulur.
 
 # Day-11
 Like operator for integer
